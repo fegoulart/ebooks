@@ -27,7 +27,7 @@ class ListingInteractor: ListingBusinessLogic, ListingDataStore {
             }
             self.eBooks = newEBooks
             response = ListingPage.FetchEBooks.Response(eBooks: self.eBooks, error: nil)
-            
+
         }.catch { error in
             response = ListingPage.FetchEBooks.Response(
                 eBooks: nil,
