@@ -23,7 +23,7 @@ extension ListingPresenter {
         var displayedEBooks: [ListingPage.DisplayedEBook] = []
         if let eBooks = eBooksToDisplay {
             for eBook in eBooks {
-                let title = eBook.trackName
+                let title = eBook.trackName?.fromHtml() ?? ""
                 let artworkUrl60 = eBook.artworkUrl60
                 let artworkUrl100 = eBook.artworkUrl100
                 let author = eBook.artistName
@@ -34,9 +34,20 @@ extension ListingPresenter {
                 let formattedPrice = eBook.formattedPrice
                 let releaseDate = eBook.releaseDate
                 let userRatingCount = eBook.userRatingCount
-                
+
                 let displayedEBook =
-                    ListingPage.DisplayedEBook(author: author, artworkUrl60: artworkUrl60, artworkUrl100: artworkUrl100, averageUserRating: averageUserRating, currency: currency, description: description, formattedPrice: formattedPrice, releaseDate: releaseDate, trackId: trackId, title: title, userRatingCount: userRatingCount)
+                    ListingPage.DisplayedEBook(
+                        author: author,
+                        artworkUrl60: artworkUrl60,
+                        artworkUrl100: artworkUrl100,
+                        averageUserRating: averageUserRating,
+                        currency: currency,
+                        description: description,
+                        formattedPrice: formattedPrice,
+                        releaseDate: releaseDate,
+                        trackId: trackId,
+                        title: title,
+                        userRatingCount: userRatingCount)
                 displayedEBooks.append(displayedEBook)
             }
         }

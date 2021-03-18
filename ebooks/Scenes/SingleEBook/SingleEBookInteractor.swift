@@ -6,7 +6,7 @@
 //
 
 protocol SingleEBookBusinessLogic {
-    
+    func getEBook(request: SingleEBookPage.GetEBook.Request)
 }
 
 protocol SingleEBookDataStore {
@@ -14,8 +14,14 @@ protocol SingleEBookDataStore {
 }
 
 class SingleEBookInteractor: SingleEBookBusinessLogic, SingleEBookDataStore {
+
     var presenter: SingleEBookPresentationLogic?
     var worker = SingleEBookWorker()
     var eBook: EBook?
-}
 
+    func getEBook(request: SingleEBookPage.GetEBook.Request) {
+        guard let eBook = eBook else { return }
+        let response = SingleEBookPage.GetEBook.Response(eBook: eBook)
+        presenter?.presentSingleEBook(response: response)
+    }
+}

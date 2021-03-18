@@ -8,7 +8,7 @@
 import UIKit
 
 protocol SingleEBookDisplayLogic: AnyObject {
-    func displaySingleEBook(viewModel: SingleEBookPage.ViewModel)
+    func displaySingleEBook(viewModel: SingleEBookPage.GetEBook.ViewModel)
 }
 
 final class SingleEBookViewController:
@@ -17,7 +17,9 @@ final class SingleEBookViewController:
 
     var interactor: SingleEBookBusinessLogic?
     var router: (NSObjectProtocol & SingleEBookRoutingLogic & SingleEBookDataPassing)?
-    var displayedEBook: SingleEBookPage.DisplayedEBook?
+
+    @IBOutlet weak var eBookCoverImageView: UIImageView!
+    @IBOutlet weak var eBookDescriptionLabel: UILabel!
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -32,6 +34,7 @@ final class SingleEBookViewController:
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        getEBook()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -60,9 +63,6 @@ extension SingleEBookViewController {
     }
 
     func setupUI() {
-        title = "In Your Library"
-        //TODO: Outlet here to download image
-
     }
 }
 
@@ -70,15 +70,14 @@ extension SingleEBookViewController {
 
 extension SingleEBookViewController {
 
-    func displaySingleEBook(viewModel: SingleEBookPage.ViewModel) {
-        setupSingleEBookDisplay(viewModel: viewModel)
+    func getEBook() {
+        let request = SingleEBookPage.GetEBook.Request()
+        interactor?.getEBook(request: request)
     }
 
-    private func setupSingleEBookDisplay(viewModel: SingleEBookPage.ViewModel) {
-        guard viewModel.error == nil else {
-            Alert.showUnableToRetrieveDataAlert(on: self)
-            return
-        }
-        displayedEBook = viewModel.displayedEBook
+    func displaySingleEBook(viewModel: SingleEBookPage.GetEBook.ViewModel) {
+        title =  viewModel.displayedEBook.title
+        self.eBookCoverImageView.download(image: viewModel.displayedEBook.artworkUrl100 ?? "")
+        self.eBookDescriptionLabel.text = viewModel.displayedEBook.description
     }
 }
