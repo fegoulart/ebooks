@@ -26,11 +26,13 @@ extension ListingPresenter {
                 let title = eBook.trackName
                 let artworkUrl = eBook.artworkUrl60
                 let author = eBook.artistName
+                let trackId = eBook.trackId
                 let displayedEBook =
                     ListingPage.DisplayedShortEBook(
-                    artworkUrl: artworkUrl ?? "",
-                    title: title ?? "",
-                    author: author ?? "")
+                        artworkUrl: artworkUrl ?? "",
+                        title: title ?? "",
+                        author: author ?? "",
+                        trackId: trackId ?? -1)
                 displayedEBooks.append(displayedEBook)
             }
         }

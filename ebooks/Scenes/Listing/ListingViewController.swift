@@ -18,6 +18,7 @@ final class ListingViewController:
     UITableViewDataSource {
 
     var interactor: ListingBusinessLogic?
+    var router: (NSObjectProtocol & ListingRoutingLogic & ListingDataPassing)?
     var displayedEBooks: [ListingPage.DisplayedShortEBook] = []
     let cellReuseIdentifier = "ebookCell"
     let cellNibName = "EBookTableViewCell"
@@ -56,9 +57,12 @@ extension ListingViewController {
         let viewController = self
         let interactor = ListingInteractor()
         let presenter = ListingPresenter()
+        let router = ListingRouter()
         viewController.interactor = interactor
         interactor.presenter = presenter
         presenter.viewController = viewController
+        router.viewController = viewController
+        router.dataStore = interactor
     }
 
     func setupUI() {
@@ -97,6 +101,7 @@ extension ListingViewController {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You tapped cell number \(indexPath.row).")
+        router?.showEBookPage(for: displayedEBooks[indexPath.row].trackId)
     }
 
 }

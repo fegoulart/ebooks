@@ -27,7 +27,7 @@
 		6C640A4126012E8D00846703 /* EBookDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A4026012E8D00846703 /* EBookDataManager.swift */; };
 		6C640A512601375700846703 /* ListingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A502601375700846703 /* ListingError.swift */; };
 		6C640A562601379000846703 /* ListingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A552601379000846703 /* ListingWorker.swift */; };
-		6C640A5B2601390500846703 /* ListingPresentationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5A2601390500846703 /* ListingPresentationLogic.swift */; };
+		6C640A5B2601390500846703 /* ListingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5A2601390500846703 /* ListingPresenter.swift */; };
 		6C640A6026022C5F00846703 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5F26022C5F00846703 /* NetworkingTests.swift */; };
 		6C640A9F260230D400846703 /* resource_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C640A9E260230D400846703 /* resource_success_response.json */; };
 		6C640AA826024A6100846703 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AA726024A6100846703 /* Alert.swift */; };
@@ -37,6 +37,8 @@
 		6C8CDF632603BF5200FEAD9A /* EBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF612603BF5200FEAD9A /* EBookTableViewCell.swift */; };
 		6C8CDF642603BF5200FEAD9A /* EBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8CDF622603BF5200FEAD9A /* EBookTableViewCell.xib */; };
 		6C8CDF6A2603C53F00FEAD9A /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */; };
+		6C8CDF702603CE8600FEAD9A /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF6F2603CE8600FEAD9A /* RouterProtocol.swift */; };
+		6C8CDF782603CF2F00FEAD9A /* ListingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF772603CF2F00FEAD9A /* ListingRouter.swift */; };
 		CF743F9F9A330C33393B7DD5 /* Pods_ebooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D4A2DAD55AD654A992295 /* Pods_ebooks.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +88,7 @@
 		6C640A4026012E8D00846703 /* EBookDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDataManager.swift; sourceTree = "<group>"; };
 		6C640A502601375700846703 /* ListingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingError.swift; sourceTree = "<group>"; };
 		6C640A552601379000846703 /* ListingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingWorker.swift; sourceTree = "<group>"; };
-		6C640A5A2601390500846703 /* ListingPresentationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresentationLogic.swift; sourceTree = "<group>"; };
+		6C640A5A2601390500846703 /* ListingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresenter.swift; sourceTree = "<group>"; };
 		6C640A5F26022C5F00846703 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
 		6C640A9E260230D400846703 /* resource_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resource_success_response.json; sourceTree = "<group>"; };
 		6C640AA726024A6100846703 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -96,6 +98,8 @@
 		6C8CDF612603BF5200FEAD9A /* EBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookTableViewCell.swift; sourceTree = "<group>"; };
 		6C8CDF622603BF5200FEAD9A /* EBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EBookTableViewCell.xib; sourceTree = "<group>"; };
 		6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		6C8CDF6F2603CE8600FEAD9A /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		6C8CDF772603CF2F00FEAD9A /* ListingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingRouter.swift; sourceTree = "<group>"; };
 		963D4A2DAD55AD654A992295 /* Pods_ebooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ebooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ED7AE2D5AF55FA29F5A331 /* Pods-ebooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ebooksTests.debug.xcconfig"; path = "Target Support Files/Pods-ebooksTests/Pods-ebooksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8BEDFF9627FC56935F7A3DD /* libPods-ebooksUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ebooksUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,6 +268,7 @@
 		6C6409E12600F25C00846703 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6C8CDF6E2603CE7200FEAD9A /* RouterProtocol */,
 				6C8CDF682603C52800FEAD9A /* Extensions */,
 				6C640AA626024A4E00846703 /* UIElements */,
 				6C640A3F26012E5600846703 /* DataManagers */,
@@ -318,7 +323,8 @@
 				6C640A352601296800846703 /* ListingInteractor.swift */,
 				6C640A3A260129E900846703 /* ListingModels.swift */,
 				6C640A552601379000846703 /* ListingWorker.swift */,
-				6C640A5A2601390500846703 /* ListingPresentationLogic.swift */,
+				6C640A5A2601390500846703 /* ListingPresenter.swift */,
+				6C8CDF772603CF2F00FEAD9A /* ListingRouter.swift */,
 			);
 			path = Listing;
 			sourceTree = "<group>";
@@ -354,6 +360,14 @@
 				6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6C8CDF6E2603CE7200FEAD9A /* RouterProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				6C8CDF6F2603CE8600FEAD9A /* RouterProtocol.swift */,
+			);
+			path = RouterProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -619,14 +633,16 @@
 				6C6409EC2600FD6F00846703 /* APIRouter.swift in Sources */,
 				6C640A512601375700846703 /* ListingError.swift in Sources */,
 				6C640A362601296800846703 /* ListingInteractor.swift in Sources */,
-				6C640A5B2601390500846703 /* ListingPresentationLogic.swift in Sources */,
+				6C640A5B2601390500846703 /* ListingPresenter.swift in Sources */,
 				6C640ABA26027E1F00846703 /* APIManager.swift in Sources */,
 				6C6409A02600ED3400846703 /* ListingViewController.swift in Sources */,
+				6C8CDF702603CE8600FEAD9A /* RouterProtocol.swift in Sources */,
 				6C64099C2600ED3400846703 /* AppDelegate.swift in Sources */,
 				6C6409A62600ED3400846703 /* ebooks.xcdatamodeld in Sources */,
 				6C640A312601277E00846703 /* EBook.swift in Sources */,
 				6C640A0E260103B000846703 /* CleanNetworkError.swift in Sources */,
 				6C8CDF632603BF5200FEAD9A /* EBookTableViewCell.swift in Sources */,
+				6C8CDF782603CF2F00FEAD9A /* ListingRouter.swift in Sources */,
 				6C8CDF6A2603C53F00FEAD9A /* UIImageView+Extensions.swift in Sources */,
 				6C640A562601379000846703 /* ListingWorker.swift in Sources */,
 				6C640A3B260129E900846703 /* ListingModels.swift in Sources */,

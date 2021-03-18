@@ -9,10 +9,9 @@ enum ListingPage {
 
     struct DisplayedShortEBook {
         var artworkUrl: String
-        // trackName
         var title: String
-        // artistName
         var author: String
+        var trackId: Int
     }
     // swiftlint:disable nesting
     enum FetchEBooks {
