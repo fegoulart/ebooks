@@ -20,7 +20,6 @@
 		6C6409C12600ED3700846703 /* ebooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6409C02600ED3700846703 /* ebooksUITests.swift */; };
 		6C6409E42600F32400846703 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6409E32600F32400846703 /* ApiConfig.swift */; };
 		6C6409EC2600FD6F00846703 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6409EB2600FD6F00846703 /* APIRouter.swift */; };
-		6C640A082601032300846703 /* Alamofire+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A072601032300846703 /* Alamofire+Extensions.swift */; };
 		6C640A0E260103B000846703 /* CleanNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A0D260103B000846703 /* CleanNetworkError.swift */; };
 		6C640A312601277E00846703 /* EBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A302601277E00846703 /* EBook.swift */; };
 		6C640A362601296800846703 /* ListingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A352601296800846703 /* ListingInteractor.swift */; };
@@ -32,8 +31,6 @@
 		6C640A6026022C5F00846703 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5F26022C5F00846703 /* NetworkingTests.swift */; };
 		6C640A9F260230D400846703 /* resource_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C640A9E260230D400846703 /* resource_success_response.json */; };
 		6C640AA826024A6100846703 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AA726024A6100846703 /* Alert.swift */; };
-		6C640AAD26026D6100846703 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AAC26026D6100846703 /* Data+Extensions.swift */; };
-		6C640AB226026D7A00846703 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AB126026D7A00846703 /* URLRequest+Extensions.swift */; };
 		6C640ABA26027E1F00846703 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AB926027E1F00846703 /* APIManager.swift */; };
 		6C640AC026027F9C00846703 /* EBooks_stub_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C640ABF26027F9C00846703 /* EBooks_stub_response.json */; };
 		6C8CDF4B2603A9D500FEAD9A /* ListingInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF4A2603A9D500FEAD9A /* ListingInteractorTests.swift */; };
@@ -79,7 +76,6 @@
 		6C6409C22600ED3700846703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6409E32600F32400846703 /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 		6C6409EB2600FD6F00846703 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
-		6C640A072601032300846703 /* Alamofire+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extensions.swift"; sourceTree = "<group>"; };
 		6C640A0D260103B000846703 /* CleanNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanNetworkError.swift; sourceTree = "<group>"; };
 		6C640A302601277E00846703 /* EBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBook.swift; sourceTree = "<group>"; };
 		6C640A352601296800846703 /* ListingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractor.swift; sourceTree = "<group>"; };
@@ -91,8 +87,6 @@
 		6C640A5F26022C5F00846703 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
 		6C640A9E260230D400846703 /* resource_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resource_success_response.json; sourceTree = "<group>"; };
 		6C640AA726024A6100846703 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		6C640AAC26026D6100846703 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
-		6C640AB126026D7A00846703 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
 		6C640AB926027E1F00846703 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		6C640ABF26027F9C00846703 /* EBooks_stub_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EBooks_stub_response.json; sourceTree = "<group>"; };
 		6C8CDF4A2603A9D500FEAD9A /* ListingInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractorTests.swift; sourceTree = "<group>"; };
@@ -279,9 +273,6 @@
 				6C640ABF26027F9C00846703 /* EBooks_stub_response.json */,
 				6C6409E32600F32400846703 /* ApiConfig.swift */,
 				6C6409EB2600FD6F00846703 /* APIRouter.swift */,
-				6C640A072601032300846703 /* Alamofire+Extensions.swift */,
-				6C640AAC26026D6100846703 /* Data+Extensions.swift */,
-				6C640AB126026D7A00846703 /* URLRequest+Extensions.swift */,
 				6C640AB926027E1F00846703 /* APIManager.swift */,
 			);
 			path = Network;
@@ -607,7 +598,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C6409E42600F32400846703 /* ApiConfig.swift in Sources */,
-				6C640A082601032300846703 /* Alamofire+Extensions.swift in Sources */,
 				6C6409EC2600FD6F00846703 /* APIRouter.swift in Sources */,
 				6C640A512601375700846703 /* ListingError.swift in Sources */,
 				6C640A362601296800846703 /* ListingInteractor.swift in Sources */,
@@ -620,8 +610,6 @@
 				6C640A0E260103B000846703 /* CleanNetworkError.swift in Sources */,
 				6C640A562601379000846703 /* ListingWorker.swift in Sources */,
 				6C640A3B260129E900846703 /* ListingModels.swift in Sources */,
-				6C640AB226026D7A00846703 /* URLRequest+Extensions.swift in Sources */,
-				6C640AAD26026D6100846703 /* Data+Extensions.swift in Sources */,
 				6C640A4126012E8D00846703 /* EBookDataManager.swift in Sources */,
 				6C640AA826024A6100846703 /* Alert.swift in Sources */,
 				6C64099E2600ED3400846703 /* SceneDelegate.swift in Sources */,
