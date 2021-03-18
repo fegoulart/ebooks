@@ -10,8 +10,10 @@ import Foundation
 extension String {
     func fromHtml() -> String? {
         let data = self.data(using: .utf8)
-        let description = try? NSAttributedString(data: data ?? Data(), options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
+        let description = try? NSAttributedString(data: data ?? Data(),
+                                options: [.documentType: NSAttributedString.DocumentType.html,
+                                .characterEncoding: String.Encoding.utf8.rawValue],
+                                documentAttributes: nil)
         return description?.string
     }
-    
 }
