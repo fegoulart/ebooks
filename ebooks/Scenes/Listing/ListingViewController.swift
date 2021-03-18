@@ -19,7 +19,7 @@ final class ListingViewController:
 
     var interactor: ListingBusinessLogic?
     var router: (NSObjectProtocol & ListingRoutingLogic & ListingDataPassing)?
-    var displayedEBooks: [ListingPage.DisplayedShortEBook] = []
+    var displayedEBooks: [ListingPage.DisplayedEBook] = []
     let cellReuseIdentifier = "ebookCell"
     let cellNibName = "EBookTableViewCell"
 
@@ -32,11 +32,11 @@ final class ListingViewController:
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
         setupUI()
         fetchEBooks()
     }
@@ -59,6 +59,7 @@ extension ListingViewController {
         let presenter = ListingPresenter()
         let router = ListingRouter()
         viewController.interactor = interactor
+        viewController.router = router
         interactor.presenter = presenter
         presenter.viewController = viewController
         router.viewController = viewController
@@ -94,14 +95,15 @@ extension ListingViewController {
                 withIdentifier: cellReuseIdentifier) as? EBookTableViewCell
         cell?.bookAuthorLabel.text = self.displayedEBooks[indexPath.row].author
         cell?.bookTitleLabel.text = self.displayedEBooks[indexPath.row].title
-        cell?.bookCoverImageView.download(image: self.displayedEBooks[indexPath.row].artworkUrl)
+        cell?.bookCoverImageView.download(image: self.displayedEBooks[indexPath.row].artworkUrl60 ?? "")
 
         return cell ?? UITableViewCell()
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You tapped cell number \(indexPath.row).")
-        router?.showEBookPage(for: displayedEBooks[indexPath.row].trackId)
+        guard let id = displayedEBooks[indexPath.row].trackId else { return }
+        router?.showEBookPage(for: id)
     }
 
 }

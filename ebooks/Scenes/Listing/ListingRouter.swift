@@ -8,7 +8,7 @@
 import UIKit
 
 @objc protocol ListingRoutingLogic {
-    func showEBookPage(for flightNumber: Int)
+    func showEBookPage(for id: Int)
 }
 
 protocol ListingDataPassing {
@@ -23,18 +23,20 @@ class ListingRouter: NSObject, ListingRoutingLogic, ListingDataPassing, RouterPr
   // MARK: Routing
 
     func showEBookPage(for id: Int) {
-        let selectedEBook = dataStore?.eBooks?.results?.first { $0.trackId == id }
-        guard let EBook = selectedEBook else { return }
+        let selectedEBook = dataStore?.eBooks?.first { $0.trackId == id }
+        guard let eBook = selectedEBook else { return }
 
-//        show(nibIdentifier: "SingleEBookPageViewController") { (destinationVC: SingleEBookPageViewController) in
-//            var destinationDS = destinationVC.router!.dataStore!
-//            self.passDataToEBookPage(source: EBook, destination: &destinationDS)
-//        }
+        show(nibIdentifier: "SingleEBookViewController") { (destinationVC: SingleEBookViewController) in
+            var destinationDS: SingleEBookDataStore =
+                destinationVC.router!.dataStore!
+                as! SingleEBookDataStore
+            self.passDataToEBookPage(source: eBook, destination: &destinationDS)
+        }
     }
 
     // MARK: Passing data
 
-//    func passDataToEBookPage(source: EBook, destination: inout SingleEBookPageDataStore) {
-//        destination.EBook = source
-//    }
+    func passDataToEBookPage(source: EBook, destination: inout SingleEBookDataStore) {
+        destination.eBook = source
+    }
 }

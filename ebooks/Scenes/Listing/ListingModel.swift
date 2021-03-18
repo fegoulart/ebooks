@@ -7,11 +7,18 @@
 
 enum ListingPage {
 
-    struct DisplayedShortEBook {
-        var artworkUrl: String
-        var title: String
-        var author: String
-        var trackId: Int
+    struct DisplayedEBook {
+        var author: String?
+        var artworkUrl60: String?
+        var artworkUrl100: String?
+        var averageUserRating: Float?
+        var currency: String?
+        var description: String?
+        var formattedPrice: String?
+        var releaseDate: String?
+        var trackId: Int?
+        var title: String?
+        var userRatingCount: Int?
     }
     // swiftlint:disable nesting
     enum FetchEBooks {
@@ -26,7 +33,7 @@ enum ListingPage {
         }
 
         struct ViewModel {
-            var displayedShortEBooks: [DisplayedShortEBook]
+            var displayedShortEBooks: [DisplayedEBook]
             var error: ListingError?
         }
     }

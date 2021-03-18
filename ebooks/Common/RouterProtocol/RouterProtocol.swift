@@ -57,11 +57,13 @@ extension RouterProtocol {
      */
     func show<T: UIViewController>(nibIdentifier: String, configure: ((T) -> Void)? = nil) {
 
-        let destinationController = T(nibName: nibIdentifier, bundle: Bundle.main)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let destinationController = storyboard.instantiateViewController(withIdentifier: nibIdentifier)
 
-        configure?(destinationController)
+        configure?(destinationController as! T)
 
         viewController?.show(destinationController, sender: self)
+
     }
     /**
      Present the intial view controller of the specified xib in the secondary (or detail) context.
