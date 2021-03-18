@@ -1,0 +1,1814 @@
+{
+    "resultCount": 50,
+    "results": [
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/fd/45/3c/fd453c93-1696-c674-3743-894a94110a79/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/fd/45/3c/fd453c93-1696-c674-3743-894a94110a79/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-inc/405307759?uo=4",
+            "trackCensoredName": "The Swift Programming Language (Swift 5.3)",
+            "fileSizeBytes": 4552606,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/the-swift-programming-language-swift-5-3/id881256329?uo=4",
+            "trackId": 881256329,
+            "trackName": "The Swift Programming Language (Swift 5.3)",
+            "releaseDate": "2014-06-02T07:00:00Z",
+            "genreIds": [
+                "10023",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                405307759
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 405307759,
+            "artistName": "Apple Inc.",
+            "genres": [
+                "Programming",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "Swift is a programming language for creating iOS, macOS, watchOS, and tvOS apps. Swift builds on the best of C and Objective-C, without the constraints of C compatibility. Swift adopts safe programming patterns and adds modern features to make programming easier, more flexible, and more fun. Swift’s clean slate, backed by the mature and much-loved Cocoa and Cocoa Touch frameworks, is an opportunity to reimagine how software development works.<br /><br />\nThis book provides:<br />\n- A tour of the language.<br />\n- A detailed guide delving into each language feature.<br />\n- A formal reference for the language.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 1669
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication1/v4/9b/5e/33/9b5e333e-ba20-4465-d110-b71a139a1a17/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication1/v4/9b/5e/33/9b5e333e-ba20-4465-d110-b71a139a1a17/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "Gulliver's Travels",
+            "fileSizeBytes": 317803,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/gullivers-travels/id395941181?uo=4",
+            "trackId": 395941181,
+            "trackName": "Gulliver's Travels",
+            "releaseDate": "1729-12-31T08:00:00Z",
+            "genreIds": [
+                "11177",
+                "38",
+                "11165"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Fiction",
+                "Books",
+                "Young Adult"
+            ],
+            "price": 0.00,
+            "description": "Travels into Several Remote Nations of the World. In Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of Several Ships, better known simply as Gulliver's Travels (1726, amended 1735), is a novel by Irish writer and clergyman Jonathan Swift, that is both a satire on human nature and a parody of the \"travellers' tales\" literary sub-genre. It is Swift's best known full-length work, and a classic of English literature. The book became popular as soon as it was published. John Gay wrote in a 1726 letter to Swift that \"It is universally read, from the cabinet council to the nursery.\" [1] Since then, it has never been out of print. Cavehill in Belfast is thought to be the inspiration for the novel. Swift imagined that the mountain resembled the shape of a sleeping giant safeguarding the city. [2]",
+            "averageUserRating": 3.5,
+            "userRatingCount": 545
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/31/0e/0f/310e0f84-bc83-bd5d-a312-ebb3e497fc1c/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/31/0e/0f/310e0f84-bc83-bd5d-a312-ebb3e497fc1c/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Intro to App Development with Swift",
+            "fileSizeBytes": 56784827,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/intro-to-app-development-with-swift/id1118575552?uo=4",
+            "trackId": 1118575552,
+            "trackName": "Intro to App Development with Swift",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This course is designed to help you build a solid foundation in programming fundamentals using Swift as the language. You’ll get practical experience with the tools, techniques, and concepts needed to build a basic iOS app from scratch. You’ll also learn user interface design principles, which are fundamental to programming and making great apps. Prior programming experience is not required for this course. If you have programming experience, you can move through the early lessons quickly as you continue to learn about software development tools, concepts, and best practices that go beyond programming fundamentals.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 234
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication113/v4/69/29/1d/69291d93-0311-89f8-ddf4-73150d61daea/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication113/v4/69/29/1d/69291d93-0311-89f8-ddf4-73150d61daea/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "App Development with Swift",
+            "fileSizeBytes": 114661638,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/app-development-with-swift/id1219117996?uo=4",
+            "trackId": 1219117996,
+            "trackName": "App Development with Swift",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This course is designed to teach you the skills needed to be an app developer capable of bringing your own ideas to life. Whether you’re new to coding or want to expand your skills, by the end of this course you should be able to build a fully functioning app of your own design.<br /><br />\nThe course starts by introducing iOS development tools, basic programming concepts using Swift as the language, and industry best practices. Building on this foundation, you’ll follow a step-by-step curriculum, work through practical exercises, and create apps from scratch.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 184
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/c0/04/57/c0045745-60ed-0cf7-1e67-98d14b80b204/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/c0/04/57/c0045745-60ed-0cf7-1e67-98d14b80b204/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Swift Playgrounds: Learn to Code 1 & 2",
+            "fileSizeBytes": 625093873,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/swift-playgrounds-learn-to-code-1-2/id1118578018?uo=4",
+            "trackId": 1118578018,
+            "trackName": "Swift Playgrounds: Learn to Code 1 & 2",
+            "releaseDate": "2016-06-13T07:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide is designed to help you bring Swift Playgrounds into the classroom, no matter what your level of experience with coding is. It includes activities, reflection questions, journal&#xa0;prompts, and more to help you bring coding into any classroom.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 122
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication/v4/eb/79/b0/eb79b0fa-a862-c105-f8a7-d62db4e36375/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication/v4/eb/79/b0/eb79b0fa-a862-c105-f8a7-d62db4e36375/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "Gulliver's Travels",
+            "fileSizeBytes": 3800957,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/gullivers-travels/id411750813?uo=4",
+            "trackId": 411750813,
+            "trackName": "Gulliver's Travels",
+            "releaseDate": "2010-12-21T08:00:00Z",
+            "genreIds": [
+                "10042",
+                "38",
+                "9031"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Classics",
+                "Books",
+                "Fiction & Literature"
+            ],
+            "price": 0.00,
+            "description": "The masterwork from writer-satirist Jonathan Swift, <i>Gulliver’s Travels</i> tells the story of wandering adventurer Lemuel Gulliver and the fantastical countries he visits on his journey around the globe. From Lilliput (a town with a six-inch tall population) to Brobdingnag (full of giants) and from the flying land of Laputa to Houyhnhnm, the country run by super-intelligent horses, Swift pokes fun at the universal flaws of human society. A mixture of scathing social criticism and wild imagination, <i>Gulliver’s Travels</i> has remained a tremendously popular book for nearly three centuries.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 247
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/22/33/23/223323d4-9821-f51f-0dd1-c9fefe91936a/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/22/33/23/223323d4-9821-f51f-0dd1-c9fefe91936a/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Intro to App Development with Swift Teacher Guide",
+            "fileSizeBytes": 18871660,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/intro-to-app-development-with-swift-teacher-guide/id1118577558?uo=4",
+            "trackId": 1118577558,
+            "trackName": "Intro to App Development with Swift Teacher Guide",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide, a companion to the semester-long Intro to<b> </b>App Development with Swift course, is designed for you to use with high school and college students new to programming. It aligns to national and international curriculum standards for computer science, and it includes lesson activities, reflection questions, and app design lessons.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 26
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication118/v4/b2/8d/3c/b28d3c1a-dea8-d006-fbc9-92f6a7bac88d/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication118/v4/b2/8d/3c/b28d3c1a-dea8-d006-fbc9-92f6a7bac88d/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Swift Playgrounds: Learn to Code 3",
+            "fileSizeBytes": 80928767,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/swift-playgrounds-learn-to-code-3/id1173709121?uo=4",
+            "trackId": 1173709121,
+            "trackName": "Swift Playgrounds: Learn to Code 3",
+            "releaseDate": "2016-11-17T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide is designed to help you bring Learn to Code 3 from Swift Playgrounds into the classroom. It includes activities, reflection questions, journal prompts, and more to help you bring coding into any classroom. Prior experience with Learn to Code 1 and 2 is recommended.",
+            "averageUserRating": 3.0,
+            "userRatingCount": 22
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication7/v4/c4/89/32/c489329e-b0f2-56e7-fd9b-62d05d83f9fd/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication7/v4/c4/89/32/c489329e-b0f2-56e7-fd9b-62d05d83f9fd/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "A Modest Proposal",
+            "fileSizeBytes": 13648,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/a-modest-proposal/id395533899?uo=4",
+            "trackId": 395533899,
+            "trackName": "A Modest Proposal",
+            "releaseDate": "1984-01-01T08:00:00Z",
+            "genreIds": [
+                "9031",
+                "38"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Fiction & Literature",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "A Modest Proposal, is a Juvenalian satirical essay. Swift suggests that the impoverished Irish might ease their economic troubles by selling their children as food for rich gentlemen and ladies. This satirical hyperbole mocks heartless attitudes towards the poor, as well as Irish policy in general.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 739
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication123/v4/45/55/c9/4555c916-27b3-60b8-5061-8f8087ea3e61/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication123/v4/45/55/c9/4555c916-27b3-60b8-5061-8f8087ea3e61/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "App Development with Swift Teacher Guide",
+            "fileSizeBytes": 145450746,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/app-development-with-swift-teacher-guide/id1219118093?uo=4",
+            "trackId": 1219118093,
+            "trackName": "App Development with Swift Teacher Guide",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide, a companion to the two-semester long App Development with Swift course, is designed for you to use with high school and college students. It includes tips for extending or adapting lessons, increasing collaboration, and assisting students who need extra support. It also includes downloadable Keynote presentations for each lesson, solution code for the labs presented in the student guide, and a rubric for evaluating student work.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 15
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication113/v4/8d/6e/05/8d6e0579-0f30-2ffb-fdb8-ad7d0c7ce536/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication113/v4/8d/6e/05/8d6e0579-0f30-2ffb-fdb8-ad7d0c7ce536/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "App Development with Swift",
+            "fileSizeBytes": 226202191,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/app-development-with-swift/id1465002990?uo=4",
+            "trackId": 1465002990,
+            "trackName": "App Development with Swift",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This course is designed to teach you the skills needed to be an app developer capable of bringing your own ideas to life. Whether you’re new to coding or want to expand your skills, by the end of this course you should be able to build a fully functioning app of your own design using Xcode 10 and iOS 12.<br /><br />\nThe course starts by introducing iOS development tools, basic programming concepts using Swift as the language, and industry best practices. Building on this foundation, you’ll follow a step-by-step curriculum, work through practical exercises, and create apps from scratch.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 33
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/9c/da/2e/9cda2e72-45d6-d127-0228-cf414371d9c3/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/9c/da/2e/9cda2e72-45d6-d127-0228-cf414371d9c3/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Fundamentals",
+            "fileSizeBytes": 101514350,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-fundamentals/id1511184145?uo=4",
+            "trackId": 1511184145,
+            "trackName": "Develop in Swift Fundamentals",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "Students build fundamental iOS app development skills with Swift. They’ll master the core concepts and practices that Swift programmers use daily and build a basic fluency in Xcode source and UI editors. Students will be able to create iOS apps that adhere to standard practices, including the use of stock UI elements, layout techniques, and common navigation interfaces. They’ll explore app design by brainstorming, planning, prototyping, and evaluating an app idea of their own. Three guided app projects help students build an app in Xcode from the ground up with step-by-step instructions. Xcode playgrounds help students learn key programming concepts as they write Swift code in an interactive coding environment that lets them experiment with code and see the results immediately.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 10
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication123/v4/11/47/92/114792d2-ad2c-f5ca-9980-dcea5fd67e56/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication123/v4/11/47/92/114792d2-ad2c-f5ca-9980-dcea5fd67e56/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/garth-stein/279982334?uo=4",
+            "trackCensoredName": "The Art of Racing In the Rain",
+            "fileSizeBytes": 3798857,
+            "formattedPrice": "$6.99",
+            "trackViewUrl": "https://books.apple.com/us/book/the-art-of-racing-in-the-rain/id363686256?uo=4",
+            "trackId": 363686256,
+            "trackName": "The Art of Racing In the Rain",
+            "releaseDate": "2009-03-17T07:00:00Z",
+            "genreIds": [
+                "10049",
+                "38",
+                "9031"
+            ],
+            "artistIds": [
+                279982334
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 279982334,
+            "artistName": "Garth Stein",
+            "genres": [
+                "Literary",
+                "Books",
+                "Fiction & Literature"
+            ],
+            "price": 6.99,
+            "description": "Enzo knows he is different from other dogs: a philosopher with a nearly human soul (and an obsession with opposable thumbs), he has educated himself by watching television extensively, and by listening very closely to the words of his master, Denny Swift, an up-and-coming race car driver. <br /><br />Through Denny, Enzo has gained tremendous insight into the human condition, and he sees that life, like racing, isn't simply about going fast. Using the techniques needed on the race track, one can successfully navigate all of life's ordeals.<br /><br />On the eve of his death, Enzo takes stock of his life, recalling all that he and his family have been through: the sacrifices Denny has made to succeed professionally; the unexpected loss of Eve, Denny's wife; the three-year battle over their daughter, Zoë, whose maternal grandparents pulled every string to gain custody. In the end, despite what he sees as his own limitations, Enzo comes through heroically to preserve the Swift family, holding in his heart the dream that Denny will become a racing champion with Zoë at his side. Having learned what it takes to be a compassionate and successful person, the wise canine can barely wait until his next lifetime, when he is sure he will return as a man. <br /><br />A heart-wrenching but deeply funny and ultimately uplifting story of family, love, loyalty, and hope, The Art of Racing in the Rain is a beautifully crafted and captivating look at the wonders and absurdities of human life . . . as only a dog could tell it.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 6212
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/50/17/02/50170294-7cd5-ea82-29e7-93ac0d21fff7/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/50/17/02/50170294-7cd5-ea82-29e7-93ac0d21fff7/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "AP® Computer Science Principles with Swift",
+            "fileSizeBytes": 54102189,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/ap-computer-science-principles-with-swift/id1456795905?uo=4",
+            "trackId": 1456795905,
+            "trackName": "AP® Computer Science Principles with Swift",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "AP® Computer Science Principles with Swift is designed for high school students who are new to coding. Its goal is to help students build a solid foundation in programming using Swift as the language, while highlighting key computing concepts. Throughout the course, students get practical experience with the tools and techniques needed to build basic iOS apps from scratch. At the same time, they'll gain experience with a new way of thinking that can be applied and understood through everyday scenarios. They’ll also learn user interface design principles, which are fundamental to programming and making great apps.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 22
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication124/v4/1b/da/40/1bda4005-b0ed-7475-f2b5-ad9a71fc0ba0/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication124/v4/1b/da/40/1bda4005-b0ed-7475-f2b5-ad9a71fc0ba0/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-inc/405307759?uo=4",
+            "trackCensoredName": "The Swift Programming Language (Swift 5.4 beta)",
+            "fileSizeBytes": 4623778,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/the-swift-programming-language-swift-5-4-beta/id1002622538?uo=4",
+            "trackId": 1002622538,
+            "trackName": "The Swift Programming Language (Swift 5.4 beta)",
+            "releaseDate": "2019-01-24T08:00:00Z",
+            "genreIds": [
+                "10023",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                405307759
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 405307759,
+            "artistName": "Apple Inc.",
+            "genres": [
+                "Programming",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "Swift is a new programming language for creating iOS, OS X, watchOS, and tvOS apps. Swift builds on the best of C and Objective-C, without the constraints of C compatibility. Swift adopts safe programming patterns and adds modern features to make programming easier, more flexible, and more fun. Swift’s clean slate, backed by the mature and much-loved Cocoa and Cocoa Touch frameworks, is an opportunity to reimagine how software development works.<br /><br />\nThis book provides:<br />\n- A tour of the language.<br />\n- A detailed guide delving into each language feature.<br />\n- A formal reference for the language.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 122
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/61/eb/91/61eb9128-81db-377c-cd07-0814f8a20fc8/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/61/eb/91/61eb9128-81db-377c-cd07-0814f8a20fc8/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Explorations",
+            "fileSizeBytes": 112885816,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-explorations/id1511184149?uo=4",
+            "trackId": 1511184149,
+            "trackName": "Develop in Swift Explorations",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "The Develop in Swift Explorations course is designed to help students learn key computing concepts and build a solid foundation in programming with Swift. They’ll learn about the impact of computing and apps on society, economies, and cultures while exploring iOS app development. Lessons take students through the app design process: brainstorming, planning, prototyping, and evaluating an app of their own. While they may still be developing skills to convert prototypes into full apps, designing an app helps students grow into the exciting world of app development.&#xa0;<br /><br />\nOptional units provide students an engaging way to explore advanced technology concepts and the impact of computing on their lives. An illustrated, fictional story follows a group of students in a film club and their use of technology to arrange a viewing party, order food, and post to social media. Interactive illustrations provide insight into the technology behind their activities—including topics such as how computers digitize images and how online activity can be stored and tracked.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 11
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/19/06/5a/19065a98-054b-fa86-1bea-d8ea8eb85e68/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/19/06/5a/19065a98-054b-fa86-1bea-d8ea8eb85e68/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/myles-songolo/722005102?uo=4",
+            "trackCensoredName": "Swift",
+            "fileSizeBytes": 200543,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/swift/id1412827225?uo=4",
+            "trackId": 1412827225,
+            "trackName": "Swift",
+            "releaseDate": "2018-07-14T07:00:00Z",
+            "genreIds": [
+                "9020",
+                "38"
+            ],
+            "artistIds": [
+                722005102
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 722005102,
+            "artistName": "Myles Songolo",
+            "genres": [
+                "Sci-Fi & Fantasy",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "After a lengthy recovery period, Lufkal - a young zephyr pilot - is set to return to racing across the skies once more. But will he be able to handle the mounting pressure from his team and the rising tension from their troubled position?"
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/98/9c/55/989c5544-72be-33de-10ee-6e6c19a0f7a7/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/98/9c/55/989c5544-72be-33de-10ee-6e6c19a0f7a7/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift AP CS Principles",
+            "fileSizeBytes": 113714624,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-ap-cs-principles/id1511184045?uo=4",
+            "trackId": 1511184045,
+            "trackName": "Develop in Swift AP CS Principles",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "11332",
+                "38",
+                "9029",
+                "10137",
+                "9027",
+                "10023"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computer Science",
+                "Books",
+                "Professional & Technical",
+                "Engineering",
+                "Computers & Internet",
+                "Programming"
+            ],
+            "price": 0.00,
+            "description": "As a College Board Endorsed Provider for the 2020-2021 school year, Apple’s Develop in Swift AP® CS Principles course helps students learn key computing concepts, building a solid foundation in programming with Swift while preparing for the AP® Computer Science Principles exam. They’ll learn about the impact of computing and apps on society, economies, and culture while exploring iOS app development. <br/>\n<br/>\nLessons take students through the app design process: brainstorming, planning, prototyping, and evaluating an app of their own. Students are presented with new illustrated, fictional stories that follow a group of students and their use of technology helping them to explore the technology behind their activities — encryption, compression, parallel computing — as well as the possible impact of sharing personal information, targeted advertising, authentication and more.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 5
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication113/v4/a4/35/89/a4358999-8abf-8893-7ca6-2196e1d19f5b/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication113/v4/a4/35/89/a4358999-8abf-8893-7ca6-2196e1d19f5b/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "AP® Computer Science Principles with Swift Teacher Guide",
+            "fileSizeBytes": 60911643,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/ap-computer-science-principles-with-swift-teacher-guide/id1456795776?uo=4",
+            "trackId": 1456795776,
+            "trackName": "AP® Computer Science Principles with Swift Teacher Guide",
+            "releaseDate": "2019-07-19T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "AP® Computer Science Principles with Swift is designed for high school students who are new to coding. Its goal is to help students build a solid foundation in programming using Swift as the language, while highlighting key computing concepts. Throughout the course, students get practical experience with the tools and techniques needed to build basic iOS apps from scratch. At the same time, they'll gain experience with a new way of thinking that can be applied and understood through everyday scenarios. They’ll also learn user interface design principles, which are fundamental to programming and making great apps. This teacher guide includes supplemental resources for teachers."
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/e7/9a/41/e79a419b-66c7-c5a2-fc6c-fef6fcc83c94/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/e7/9a/41/e79a419b-66c7-c5a2-fc6c-fef6fcc83c94/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "Gulliver's Travels",
+            "fileSizeBytes": 315866,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/gullivers-travels/id492292232?uo=4",
+            "trackId": 492292232,
+            "trackName": "Gulliver's Travels",
+            "releaseDate": "1730-01-01T07:00:00Z",
+            "genreIds": [
+                "10039",
+                "38",
+                "9031"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Action & Adventure",
+                "Books",
+                "Fiction & Literature"
+            ],
+            "price": 0.00,
+            "description": "Officially titled Travels into Several Remote Nations of the World, in Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of several Ships, Gulliver's Travels is the story of the travels of Lemuel Gulliver, to such exotic places as Lilliput and Brobdingnag.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 97
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/6f/fb/91/6ffb9198-4bc3-376b-af3b-45d81fd23e44/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/6f/fb/91/6ffb9198-4bc3-376b-af3b-45d81fd23e44/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Data Collections",
+            "fileSizeBytes": 115660081,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-data-collections/id1511183970?uo=4",
+            "trackId": 1511183970,
+            "trackName": "Develop in Swift Data Collections",
+            "releaseDate": "2020-11-19T08:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "Students expand on the knowledge and skills they developed in Fundamentals by extending their work in iOS app development, creating more complex and capable apps. They’ll work with data from a server and explore new iOS APIs that allow for much richer app experiences—including displaying large collections of data in multiple formats. They’ll explore app design by brainstorming, planning, prototyping, and evaluating an app idea of their own.Three guided app projects help students build an app in Xcode from the ground up with step-by-step instructions. Xcode playgrounds help students learn key programming concepts as they write Swift code in an interactive coding environment that lets them experiment with code and see the results immediately.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 8
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/78/e9/9d/78e99d0c-9a07-7456-ff11-268361acda5e/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/78/e9/9d/78e99d0c-9a07-7456-ff11-268361acda5e/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "App Development with Swift Teacher Guide",
+            "fileSizeBytes": 136800089,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/app-development-with-swift-teacher-guide/id1465003285?uo=4",
+            "trackId": 1465003285,
+            "trackName": "App Development with Swift Teacher Guide",
+            "releaseDate": "2019-11-20T08:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide, a companion to the two-semester long App Development with Swift course, is designed for you to use with high school and college students. It includes tips for extending or adapting lessons, increasing collaboration, and assisting students who need extra support. It also includes downloadable Keynote presentations for each lesson, solution code for the labs presented in the student guide, and a rubric for evaluating student work.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 8
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/76/39/c1/7639c123-31a0-6507-3799-41b9f847fe0a/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication114/v4/76/39/c1/7639c123-31a0-6507-3799-41b9f847fe0a/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Fundamentals Teacher Guide",
+            "fileSizeBytes": 67499091,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-fundamentals-teacher-guide/id1511184161?uo=4",
+            "trackId": 1511184161,
+            "trackName": "Develop in Swift Fundamentals Teacher Guide",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide provides tools to deepen engagement with aspiring app developers, whether you have experience teaching with Swift or other programming languages. Students build fundamental iOS app development skills with Swift. They’ll master the core concepts and practices that Swift programmers use daily and build a basic fluency in Xcode source and UI editors. Students will be able to create iOS apps that adhere to standard practices, including the use of stock UI elements, layout techniques, and common navigation interfaces. They’ll explore app design by brainstorming, planning, prototyping, and evaluating an app idea of their own. Three guided app projects help students build an app in Xcode from the ground up with step-by-step instructions. Xcode playgrounds help students learn key programming concepts as they write Swift code in an interactive coding environment that lets them experiment with code and see the results immediately."
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication114/v4/3f/16/4d/3f164d64-a9b3-54a9-b829-94ac8adc3bcd/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication114/v4/3f/16/4d/3f164d64-a9b3-54a9-b829-94ac8adc3bcd/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Explorations Teacher Guide",
+            "fileSizeBytes": 122645829,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-explorations-teacher-guide/id1511184084?uo=4",
+            "trackId": 1511184084,
+            "trackName": "Develop in Swift Explorations Teacher Guide",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide provides tools to deepen engagement with aspiring app developers, whether you have experience teaching with Swift or other programming languages.&#xa0;<br />\nThe Develop in Swift Explorations course is designed to help students learn key computing concepts and build a solid foundation in programming with Swift. They’ll learn about the impact of computing and apps on society, economies, and cultures while exploring iOS app development. Lessons take students through the app design process: brainstorming, planning, prototyping, and evaluating an app of their own. While they may still be developing skills to convert prototypes into full apps, designing an app helps students grow into the exciting world of app development.<br /><br />\nOptional units provide students an engaging way to explore advanced technology concepts and the impact of computing on their lives. An illustrated, fictional story follows a group of students in a film club and their use of technology to arrange a viewing party, order food, and post to social media. Interactive illustrations provide insight into the technology behind their activities—including topics such as how computers digitize images and how online activity can be stored and tracked."
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication6/v4/68/6c/23/686c2336-597f-d6a9-4c09-c67aa4673279/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication6/v4/68/6c/23/686c2336-597f-d6a9-4c09-c67aa4673279/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "Gulliver's Travels",
+            "fileSizeBytes": 591523,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/gullivers-travels/id764781989?uo=4",
+            "trackId": 764781989,
+            "trackName": "Gulliver's Travels",
+            "releaseDate": "2009-06-15T07:00:00Z",
+            "genreIds": [
+                "11005",
+                "38",
+                "9020",
+                "10044"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Short Stories",
+                "Books",
+                "Sci-Fi & Fantasy",
+                "Fantasy"
+            ],
+            "price": 0.00,
+            "description": "Travels into Several Remote Nations of the World. In Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of Several Ships, better known simply as Gulliver's Travels (1726, amended 1735), is a novel by Anglo-Irish writer and clergyman Jonathan Swift, that is both a satire on human nature and a parody of the \"travellers' tales\" literary sub-genre. It is Swift's best known full-length work, and a classic of English literature. The book became popular as soon as it was published. John Gay wrote in a 1726 letter to Swift that \"It is universally read, from the cabinet council to the nursery.\"[1] Since then, it has never been out of print.",
+            "averageUserRating": 3.5,
+            "userRatingCount": 30
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication114/v4/87/f6/d0/87f6d0fa-ec95-762d-2e99-c6176d5c31e9/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication114/v4/87/f6/d0/87f6d0fa-ec95-762d-2e99-c6176d5c31e9/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift AP CS Principles Teacher Guide",
+            "fileSizeBytes": 124676533,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-ap-cs-principles-teacher-guide/id1511184026?uo=4",
+            "trackId": 1511184026,
+            "trackName": "Develop in Swift AP CS Principles Teacher Guide",
+            "releaseDate": "2020-07-09T07:00:00Z",
+            "genreIds": [
+                "11332",
+                "38",
+                "9029",
+                "10137",
+                "9027",
+                "10023"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computer Science",
+                "Books",
+                "Professional & Technical",
+                "Engineering",
+                "Computers & Internet",
+                "Programming"
+            ],
+            "price": 0.00,
+            "description": "As a College Board Endorsed Provider for the 2020-2021 school year, Apple’s Develop in Swift AP® CS Principles course helps students learn key computing concepts, building a solid foundation in programming with Swift while preparing for the AP® Computer Science Principles exam. They’ll learn about the impact of computing and apps on society, economies, and culture while exploring iOS app development. <br/>\n<br/>\nLessons take students through the app design process: brainstorming, planning, prototyping, and evaluating an app of their own. Students are presented with new illustrated, fictional stories that follow a group of students and their use of technology helping them to explore the technology behind their activities — encryption, compression, parallel computing — as well as the possible impact of sharing personal information, targeted advertising, authentication and more."
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/2e/9d/b5/2e9db516-7d5d-9943-1591-6878932e1638/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/2e/9d/b5/2e9db516-7d5d-9943-1591-6878932e1638/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/benjamin-franklin-john-woolman-william-penn-plato-epictetus/2066230?uo=4",
+            "trackCensoredName": "The Complete Harvard Classics - ALL 71 Volumes",
+            "fileSizeBytes": 84907200,
+            "formattedPrice": "$1.99",
+            "trackViewUrl": "https://books.apple.com/us/book/the-complete-harvard-classics-all-71-volumes/id1474937800?uo=4",
+            "trackId": 1474937800,
+            "trackName": "The Complete Harvard Classics - ALL 71 Volumes",
+            "releaseDate": "2019-07-26T07:00:00Z",
+            "genreIds": [
+                "9031",
+                "38"
+            ],
+            "artistIds": [
+                2066230,
+                399859389,
+                138010976,
+                361618116,
+                322578028,
+                66479186,
+                366106986,
+                275240001,
+                366202131,
+                314891173,
+                6296017,
+                202748796,
+                250900300,
+                357991818,
+                80842487,
+                329096326,
+                357927187,
+                25983894,
+                414401495,
+                660282012,
+                156138118,
+                47150046,
+                30537686,
+                360630183,
+                2136990,
+                357117465,
+                2683090,
+                2498934,
+                2796386,
+                3813853,
+                206431515,
+                78377839,
+                276129333,
+                104950187,
+                298669526,
+                359267995,
+                14236141,
+                17518562,
+                274584661,
+                265526905,
+                781333,
+                160760716,
+                279407345,
+                304573654,
+                326548550,
+                421221943,
+                40016106,
+                151195512,
+                126334248,
+                290200586,
+                564574,
+                5153510,
+                1280898026,
+                5153663,
+                16202787,
+                301969319,
+                275915584,
+                2038118,
+                1262951092,
+                192327346,
+                288772420,
+                309098912,
+                366078915,
+                370190118,
+                28727743,
+                375280297,
+                22570575,
+                315273654,
+                874085,
+                1038852452,
+                2038261,
+                365983746,
+                159285433,
+                518805241,
+                366144760,
+                457620642,
+                209388246,
+                137308922,
+                366179652,
+                366199125,
+                262893504,
+                366170091,
+                2021712,
+                374204096,
+                409485142,
+                366113747,
+                366118153,
+                366125415,
+                1180482966,
+                194043257,
+                195472873,
+                209869371,
+                277613624,
+                171741369,
+                374933778,
+                2717416,
+                466257373,
+                2066300,
+                276580608,
+                366104528,
+                490633088,
+                492755213,
+                366150604,
+                371165768,
+                634144160,
+                209678101,
+                286499519,
+                366108521,
+                372292549,
+                2765976,
+                1455158649,
+                193501567,
+                2627007,
+                30456321,
+                253484357,
+                30594019,
+                411784345,
+                1468855926,
+                66795932,
+                6652606,
+                2038186,
+                5171949,
+                2671774,
+                28596172,
+                5884835,
+                2683836,
+                215305962,
+                275252648,
+                286626266,
+                2684064,
+                2684161,
+                423071113,
+                286592465,
+                41302411,
+                338695673,
+                1441339104,
+                64434751,
+                19536753,
+                14811512,
+                2718686,
+                49949629,
+                787380685,
+                156141850,
+                14200926,
+                123331646
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 2066230,
+            "artistName": "Benjamin Franklin, John Woolman, William Penn, Plato, Epictetus, Marcus Aurelius, Francis Bacon, John Milton, Thomas Browne, Ralph Waldo Emerson, Robert Burns, Saint Augustine, Thomas à Kempis, Aeschylus, Sophocles, Euripides, Aristophanes, Cicero, Pliny the Younger, Adam Smith, Charles Darwin, Plutarch, Virgil, Miguel de Cervantes, John Bunyan, Izaak Walton, Aesop, The Brothers Grimm, Hans Christian Andersen, John Dryden, Richard Brinsley Sheridan, David Garrick, Oliver Goldsmith, Percy Bysshe Shelley, Robert Browning, George Gordon Byron, Johann Wolfgang von Goethe, Christopher Marlowe, Dante Alighieri, Alessandro Manzoni, Homer, Richard Henry Dana, Edmund Burke, John Stuart Mill, Thomas Carlyle, Pedro Calderón de la Barca, Pierre Corneille, Jean Racine, Molière, Gotthold Ephraim Lessing, Friedrich von Schiller, Philip Sidney, Ben Jonson, Abraham Cowley, Joseph Addison, Richard Steele, Jonathan Swift, Daniel Defoe, Samuel Johnson, Sydney Smith, Samuel Taylor Coleridge, William Hazlitt, Leigh Hunt, Charles Lamb, Thomas De Quincey, Thomas Babington Macaulay, William Makepeace Thackeray, John Ruskin, Robert Louis Stevenson, Edgar Alan Poe, Henry David Thoreau, James Russell Lowell, Michael Faraday, Hermann Ludwig Ferdinand von Helmholtz, Simon Newcomb, Archibald Geikie, Benvenuto Cellini, Michel de Montaigne, Charles Augustin Sainte-Beuve, Ernest Renan, Immanuel Kant, Giuseppe Mazzini, Herodotus, Tacitus, Francis Drake, Philip Nichols, Francis Pretty, Walter Bigges, Edward Haies, Walter Raleigh, René Descartes, Voltaire, Jean-Jacques Rousseau, Thomas Hobbes, Jean Froissart, Thomas Malory, William Henry Harrison, Niccolò Machiavelli, William Roper, Thomas More, Martin Luther, John Locke, George Berkeley, Hippocrates, Ambroise Pare, William Harvey, Oliver Wendell Holmes, Joseph Lister, Louis Pasteur, William Shakespeare, Thomas Dekker, Francis Beaumont, John Fletcher, John Webster, Philip Massinger, Blaise Pascal, Charles W. Eliot, William A. Neilson, Henry Fielding, Laurence Sterne, Jane Austen, Walter Scott, Charles Dickens, George Eliot, Nathaniel Hawthorne, Washington Irving, Bret Harte, Mark Twain, Edward Everett Hale, Henry James, Victor Hugo, Honoré Balzac, George Sand, Alfred de Musset, Alphonse Daudet, Gottfried Keller, Guy de Maupassant, Theodor Storm, Theodor Fontane, Leo Tolstoy, Fyodor Dostoyevsky, Ivan Turgenev, Juan Valera, Bjornstjerne Bjornson & Alexander L. Kielland",
+            "genres": [
+                "Fiction & Literature",
+                "Books"
+            ],
+            "price": 1.99,
+            "description": "The original Harvard Classics Collection contains 51 volumes of the essential works of world literature, showing the progress of man from antics to modern age. In this edition, the original collection is supplemented with the 20 volume Harvard Shelf of Fiction, a selection of the greatest works of fiction. <br/>\nContent:<br/>\nThe Harvard Classics:<br/>\nV. 1: Franklin, Woolman &amp; Penn<br/>\nV. 2: Plato, Epictetus &amp; Marcus Aurelius<br/>\nV. 3: Bacon, Milton, Browne<br/>\nV. 4: John Milton<br/>\nV. 5: R. W. Emerson<br/>\nV. 6: Robert Burns<br/>\nV. 7: St Augustine &amp; Thomas á Kempis<br/>\nV. 8: Nine Greek Dramas <br/>\nV. 9: Cicero and Pliny<br/>\nV. 10: The Wealth of Nations<br/>\nV. 11: The Origin of Species<br/>\nV. 12: Plutarchs<br/>\nV. 13: Æneid<br/>\nV. 14: Don Quixote<br/>\nV. 15: Bunyan &amp; Walton<br/>\nV. 16: 1001 Nights<br/>\nV. 17: Folklore &amp; Fable<br/>\nV. 18: Modern English Drama<br/>\nV. 19: Goethe &amp; Marlowe<br/>\nV. 20: The Divine Comedy<br/>\nV. 21: I Promessi Sposi<br/>\nV. 22: The Odyssey<br/>\nV. 23: Two Years Before the Mast<br/>\nV. 24: Edmund Burke<br/>\nV. 25: J. S. Mill &amp; T. Carlyle<br/>\nV. 26: Continental Drama<br/>\nV. 27 &amp; 28: English &amp; American Essays<br/>\nV. 29: The Voyage of the Beagle<br/>\nV. 30: Scientific Papers<br/>\nV. 31: The Autobiography of Benvenuto Cellini<br/>\nV. 32: Literary and Philosophical Essays<br/>\nV. 33: Voyages &amp; Travels<br/>\nV. 34: French &amp; English Philosophers<br/>\nV. 35:  Chronicle and Romance<br/>\nV. 36: Machiavelli, Roper, More, Luther<br/>\nV. 37: Locke, Berkeley, Hume<br/>\nV. 38: Harvey, Jenner, Lister, Pasteur<br/>\nV. 39: Prologues<br/>\nV. 40–42: English Poetry<br/>\nV. 43: American Historical Documents<br/>\nV. 44 &amp; 45: Sacred Writings<br/>\nV. 46 &amp; 47: Elizabethan Drama<br/>\nV. 48: Blaise Pascal<br/>\nV. 49: Saga<br/>\nV. 50: Reader&#39;s Guide<br/>\nV. 51: Lectures<br/>\nThe Shelf of Fiction:<br/>\nV. 1 &amp; 2: The History of Tom Jones<br/>\nV. 3: A Sentimental Journey &amp; Pride and Prejudice <br/>\nV. 4: Guy Mannering<br/>\nV. 5 &amp; 6: Vanity Fair<br/>\nV. 7 &amp; 8: David Copperfield<br/>\nV. 9: The Mill on the Floss<br/>\nV. 10: Irving, Poe, Harte, Twain, Hale<br/>\nV.11: The Portrait of a Lady<br/>\nV. 12: Notre Dame de Paris<br/>\nV. 13: Balzac, Sand, de Musset, Daudet, de Maupassant<br/>\nV. 14 &amp; 15:",
+            "averageUserRating": 4.0,
+            "userRatingCount": 25
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication5/v4/1d/f2/1d/1df21d37-0174-c89b-3c97-bdd163e90d36/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication5/v4/1d/f2/1d/1df21d37-0174-c89b-3c97-bdd163e90d36/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/serenity-starr/924180766?uo=4",
+            "trackCensoredName": "Unofficial Taylor Swift Trivia Slumber Party Quiz Game Volume 1",
+            "fileSizeBytes": 808385,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/unofficial-taylor-swift-trivia-slumber-party-quiz-game/id924180651?uo=4",
+            "trackId": 924180651,
+            "trackName": "Unofficial Taylor Swift Trivia Slumber Party Quiz Game Volume 1",
+            "releaseDate": "2014-09-27T07:00:00Z",
+            "genreIds": [
+                "10067",
+                "38",
+                "9007"
+            ],
+            "artistIds": [
+                924180766
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 924180766,
+            "artistName": "Serenity Starr",
+            "genres": [
+                "Games",
+                "Books",
+                "Arts & Entertainment"
+            ],
+            "price": 0.00,
+            "description": "Test your Taylor Swift IQ with your friends at your next Slumber Party…One of you is surely the Ultimate Taylor Swift Fan who knows the answers to all 50 questions in each volume, 10 questions per Round.<br /><br />Is it you? Have a blast in all 5 Rounds, showing them all you’re the best, laughing all the way…<br /><br />Find out if you're a true Swiftie or not! You’ll want to collect all 4 volumes of this freaking awesome party game. Time will fly as you try your luck proving yourself the best at Taylor Swift Trivia. The ultimate in fun, can even be played in the car on trips for the fastest journey ever!",
+            "averageUserRating": 4.0,
+            "userRatingCount": 60
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/3c/d7/cb/3cd7cba0-02d0-c9ed-c194-5a1df45da06b/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/3c/d7/cb/3cd7cba0-02d0-c9ed-c194-5a1df45da06b/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/lisa-kleypas/279480943?uo=4",
+            "trackCensoredName": "Scandal in Spring",
+            "fileSizeBytes": 1293260,
+            "formattedPrice": "$4.99",
+            "trackViewUrl": "https://books.apple.com/us/book/scandal-in-spring/id363687835?uo=4",
+            "trackId": 363687835,
+            "trackName": "Scandal in Spring",
+            "releaseDate": "2009-03-17T07:00:00Z",
+            "genreIds": [
+                "10059",
+                "38",
+                "9003"
+            ],
+            "artistIds": [
+                279480943
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 279480943,
+            "artistName": "Lisa Kleypas",
+            "genres": [
+                "Historical",
+                "Books",
+                "Romance"
+            ],
+            "price": 4.99,
+            "description": "Quirky and fun-loving American heiress Daisy Bowman is the last unmarried Wallflower. Her exasperated father has informed her that if she can’t find a husband by the end of her third London season, she will be forced to marry a man she hates—the ruthless entrepreneur Matthew Swift.<br /><br />Daisy is horrified. A Bowman never admits defeat, so she decides to do whatever it takes to marry someone . . . anyone . . . other than Matthew. What she doesn’t count on, however, is Matthew’s unexpected charm, or the blazing sensuality that soon flares beyond both their control. And Daisy discovers that the man she has always hated just might turn out to be the man of her dreams.<br /><br />But when a scandalous secret is uncovered, it could destroy both Matthew and a love more passionate and irresistible than Daisy’s wildest fantasies.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 606
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/3b/58/fe/3b58fe58-70e9-dedd-6920-5f8441e50558/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/3b/58/fe/3b58fe58-70e9-dedd-6920-5f8441e50558/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Develop in Swift Data Collections Teacher Guide",
+            "fileSizeBytes": 84461592,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/develop-in-swift-data-collections-teacher-guide/id1511184146?uo=4",
+            "trackId": 1511184146,
+            "trackName": "Develop in Swift Data Collections Teacher Guide",
+            "releaseDate": "2020-11-19T08:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "This Teacher Guide provides tools to deepen engagement with aspiring app developers, whether you have experience teaching with Swift or other programming languages. Students expand on the knowledge and skills they developed in Fundamentals by extending their work in iOS app development, creating more complex and capable apps. They’ll work with data from a server and explore new iOS APIs that allow for much richer app experiences—including displaying large collections of data in multiple formats. They’ll explore app design by brainstorming, planning, prototyping, and evaluating an app idea of their own. Three guided app projects help students build an app in Xcode from the ground up with step-by-step instructions. Xcode playgrounds help students learn key programming concepts as they write Swift code in an interactive coding environment that lets them experiment with code and see the results immediately."
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication118/v4/e6/30/73/e63073ff-0ab4-9065-52a3-a50a70ea3712/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication118/v4/e6/30/73/e63073ff-0ab4-9065-52a3-a50a70ea3712/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/daniel-budd-anders-randler-joe-moretti/1032166921?uo=4",
+            "trackCensoredName": "Swift Playgrounds in the Classroom",
+            "fileSizeBytes": 378634321,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/swift-playgrounds-in-the-classroom/id1299527160?uo=4",
+            "trackId": 1299527160,
+            "trackName": "Swift Playgrounds in the Classroom",
+            "releaseDate": "2017-11-01T07:00:00Z",
+            "genreIds": [
+                "10017",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                1032166921,
+                873906389,
+                376375040
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 1032166921,
+            "artistName": "Daniel Budd, Anders Randler & Joe Moretti",
+            "genres": [
+                "Computers",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 0.00,
+            "description": "This resource is designed to help Teachers facilitate coding courses using the Swift programming language.&#xa0; Throughout the resource the authors reflect on their experiences of best practice to help readers learn from their mistakes and make informed decisions on how to engage students and navigate the vast field of materials to implement a coding curriculum.",
+            "averageUserRating": 3.0,
+            "userRatingCount": 5
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication122/v4/74/08/f0/7408f0a1-a1a6-f86b-4868-11b2a505a42c/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication122/v4/74/08/f0/7408f0a1-a1a6-f86b-4868-11b2a505a42c/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Introducción al desarrollo de apps con Swift",
+            "fileSizeBytes": 65288957,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/introducci%C3%B3n-al-desarrollo-de-apps-con-swift/id1216831475?uo=4",
+            "trackId": 1216831475,
+            "trackName": "Introducción al desarrollo de apps con Swift",
+            "releaseDate": "2017-03-20T07:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "Este curso está diseñado para ayudarte a crear una base sólida de conocimientos básicos de programación con el lenguaje Swift. Adquirirás experiencia práctica con las herramientas, las técnicas y los conceptos que se necesitan para crear una app de iOS básica desde cero. También aprenderás los principios de diseño de la interfaz de usuario, los cuales son fundamentales para programar y crear apps magníficas. No es necesario tener experiencia previa en programación para realizar este curso. Si tienes experiencia en programación, puedes avanzar rápidamente por las primeras lecciones para conocer herramientas de desarrollo de software, conceptos y prácticas recomendadas que trascienden los conocimientos básicos de programación."
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication122/v4/9f/54/77/9f547744-394d-00e4-1679-6b5c3fc90d54/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication122/v4/9f/54/77/9f547744-394d-00e4-1679-6b5c3fc90d54/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/apple-education/939801385?uo=4",
+            "trackCensoredName": "Introducción al desarrollo de apps con Swift",
+            "fileSizeBytes": 13226052,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/introducci%C3%B3n-al-desarrollo-de-apps-con-swift/id1216836045?uo=4",
+            "trackId": 1216836045,
+            "trackName": "Introducción al desarrollo de apps con Swift",
+            "releaseDate": "2017-03-20T07:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                939801385
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 939801385,
+            "artistName": "Apple Education",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "Esta Guía para profesores, que complementa el curso semestral Introducción al desarrollo de apps con Swift, está pensada para utilizarse con estudiantes de la escuela media y superior que no tienen conocimientos de programación. Se correlaciona con los estándares curriculares nacionales e internaciones para las ciencias de la computación y ofrece actividades para las lecciones, preguntas para reflexionar y lecciones sobre diseño de apps."
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication4/v4/43/8e/97/438e97cb-19d4-d466-ddc4-f1288c928ae3/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication4/v4/43/8e/97/438e97cb-19d4-d466-ddc4-f1288c928ae3/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "A Modest Proposal",
+            "fileSizeBytes": 334217,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/a-modest-proposal/id764349564?uo=4",
+            "trackId": 764349564,
+            "trackName": "A Modest Proposal",
+            "releaseDate": "2008-07-27T07:00:00Z",
+            "genreIds": [
+                "9018",
+                "38"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Religion & Spirituality",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "A Modest Proposal for Preventing the Children of Poor People From Being a Burthen to Their Parents or Country, and for Making Them Beneficial to the Publick, commonly referred to as A Modest Proposal, is a Juvenalian satirical essay written and published anonymously by Jonathan Swift in 1729. Swift suggests that the impoverished Irish might ease their economic troubles by selling their children as food for rich gentlemen and ladies. This satirical hyperbole mocks heartless attitudes towards the poor, as well as Irish policy in general.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 14
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication124/v4/6f/48/d0/6f48d070-7141-785d-9848-241355f2c9c5/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication124/v4/6f/48/d0/6f48d070-7141-785d-9848-241355f2c9c5/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/tammy-andresen-annabelle-anders/1040634815?uo=4",
+            "trackCensoredName": "My Dashing Duke",
+            "fileSizeBytes": 453621,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/my-dashing-duke/id1548712010?uo=4",
+            "trackId": 1548712010,
+            "trackName": "My Dashing Duke",
+            "releaseDate": "2021-01-13T08:00:00Z",
+            "genreIds": [
+                "10059",
+                "38",
+                "9003"
+            ],
+            "artistIds": [
+                1040634815,
+                1248457003
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 1040634815,
+            "artistName": "Tammy Andresen & Annabelle Anders",
+            "genres": [
+                "Historical",
+                "Books",
+                "Romance"
+            ],
+            "price": 0.00,
+            "description": "A duke by any other name…<br /><br />When the Duke of Dashlington gets stuck into a tiny village during a snowstorm, there is little to do but drink himself into a stupor. The problem? Well, it's hard to count just one. He stumbles into the snow, falls down, and can't seem to get himself back up again. Imagine the indignity of dying in a snowbank? But when a little Christmas angel comes and rescues him, he can't resist stealing a kiss. She looks heaven sent and tastes like the sweetest gingerbread. It all seems innocent enough until the next morning when he realizes she was no angel but an eligible lady and one who might just request marriage as a boon. How does a duke get out of such a situation? He lies about his identity, of course. Which means his troubles are only just beginning.<br /><br />A lady in need of a Christmastide miracle…<br /><br />Lady Noelle hasn't slept properly in months. Which is exactly why she is awake when an unknown gentleman falls into the snow. When he doesn't rise, she dashes to his rescue, forgetting all about the wish she'd just been making on a Christmas star. A request to help her sisters overcome the loss of their mother. But once she reaches the gentleman, several things become apparent. He's young, handsome, well dressed, and possibly, her wish come true…<br /><br />Now, if he'd just cooperate.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 147
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/98/66/ef/9866ef40-656c-362e-8c4b-b4a8044ba878/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/98/66/ef/9866ef40-656c-362e-8c4b-b4a8044ba878/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/james-joyce-rudyard-kipling-d-h-lawrence-thomas-mann/2038317?uo=4",
+            "trackCensoredName": "100 Books You Must Read Before You Die [volume 2]",
+            "fileSizeBytes": 53788696,
+            "formattedPrice": "$1.99",
+            "trackViewUrl": "https://books.apple.com/us/book/100-books-you-must-read-before-you-die-volume-2/id1302349651?uo=4",
+            "trackId": 1302349651,
+            "trackName": "100 Books You Must Read Before You Die [volume 2]",
+            "releaseDate": "2021-03-15T07:00:00Z",
+            "genreIds": [
+                "9031",
+                "38",
+                "10084"
+            ],
+            "artistIds": [
+                2038317,
+                874102,
+                164678419,
+                17357088,
+                278412351,
+                49943975,
+                2036749,
+                1202303613,
+                1302302472,
+                2718686,
+                2038168,
+                668883825,
+                2765844,
+                275252648,
+                83837698,
+                887440822,
+                2789674,
+                2683453,
+                286592465,
+                2021612,
+                1182338755,
+                164750511,
+                874085,
+                275915584,
+                259592339
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 2038317,
+            "artistName": "James Joyce, Rudyard Kipling, D. H. Lawrence, Thomas Mann, H. P. Lovecraft, Marcel Proust, Herman Melville, EDGAR ALLAN POE, Bram Stoker, Leo Tolstoy, Jules Verne, H. G. Wells, Oscar Wilde, Mark Twain, Stendhal, Rabindranath Tagore, Jack London, Mary Shelley, George Sand, William Somerset Maugham, Walter Scott, Upton Sinclair, Robert Louis Stevenson, Jonathan Swift & Rebecca West",
+            "genres": [
+                "Fiction & Literature",
+                "Books",
+                "Literary Criticism"
+            ],
+            "price": 1.99,
+            "description": "This 2nd volume of contains the following 50 works, arranged alphabetically by authors’ last names:\n\nJerome, Jerome K.: Three Men in a Boat\nJoyce, James: A Portrait of the Artist as a Young Man\nJoyce, James: Ulysses\nKingsley, Charles: The Water-Babies\nKipling, Rudyard: Kim\nLa Fayette, Madame de: The Princess of Clèves\nLaclos, Pierre Choderlos de: Dangerous Liaisons\nLawrence, D. H.: Sons and Lovers\nLawrence, D. H.: The Rainbow\nLe Fanu, Sheridan: In a Glass Darkly\nLewis, Matthew Gregory: The Monk\nLewis, Sinclair: Main Street\nLondon, Jack: The Call of the Wild\nLovecraft, H.P.: At the Mountains of Madness\nMann, Thomas: Royal Highness\nMaugham, William Somerset: Of Human Bondage\nMaupassant, Guy de: Bel-Ami\nMelville, Herman: Moby-Dick\nPoe, Edgar Allan: The Fall of the House of Usher\nProust, Marcel: Swann's Way\nRadcliffe, Ann: The Mysteries of Udolpho\nRichardson, Samuel: Clarissa\nSand, George: The Devil’s Pool\nScott, Walter: Ivanhoe\nShelley, Mary: Frankenstein\nSienkiewicz, Henryk: Quo Vadis\nSinclair, May: Life and Death of Harriett Frean\nSinclair, Upton: The Jungle\nStendhal: The Red and the Black\nStendhal: The Chartreuse of Parma\nSterne, Laurence: Tristram Shandy\nStevenson, Robert Louis: Treasure Island\nStoker, Bram: Dracula\nStowe, Harriet Beecher: Uncle Tom’s Cabin\nSwift, Jonathan: Gulliver's Travels\nTagore, Rabindranath: The Home and the World\nThackeray, William Makepeace: Vanity Fair\nTolstoy, Leo: War and Peace\nTolstoy, Leo: Anna Karenina\nTrollope, Anthony: The Way We Live Now\nTurgenev, Ivan: Fathers and Sons\nTwain, Mark: The Adventures of Huckleberry Finn\nVerne, Jules: Journey to the Center of the Earth\nWallace, Lew: Ben-Hur\nWells, H. G.: The Time Machine\nWest, Rebecca: The Return of the Soldier\nWharton, Edith: The Age of Innocence\nWilde, Oscar: The Picture of Dorian Gray\nXueqin, Cao: The Dream of the Red Chamber\nZola, Émile: Germinal"
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication5/v4/83/ec/9f/83ec9fe6-0781-7ce9-56ef-f393a4d19d0d/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication5/v4/83/ec/9f/83ec9fe6-0781-7ce9-56ef-f393a4d19d0d/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/victor-pseud-appleton/366078685?uo=4",
+            "trackCensoredName": "Tom Swift and His Motor-Cycle, or, Fun and Adventures on the Road",
+            "fileSizeBytes": 117408,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/tom-swift-his-motor-cycle-or-fun-adventures-on-road/id499506231?uo=4",
+            "trackId": 499506231,
+            "trackName": "Tom Swift and His Motor-Cycle, or, Fun and Adventures on the Road",
+            "releaseDate": "2003-07-01T07:00:00Z",
+            "genreIds": [
+                "9031",
+                "38"
+            ],
+            "artistIds": [
+                366078685
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 366078685,
+            "artistName": "Victor [pseud.] Appleton",
+            "genres": [
+                "Fiction & Literature",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "Out the mails was regarding him curiously. Tom thought nothing of it at the time, but there came an occasion when he wished that he had taken more careful note of the well-dressed individual. As the youth passed out of the outer door he saw the man walk over to the registry window.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 37
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication4/v4/2c/ff/bb/2cffbb3e-ebd9-0098-feb9-7a51a38ab478/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication4/v4/2c/ff/bb/2cffbb3e-ebd9-0098-feb9-7a51a38ab478/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/alec-merrill/893521018?uo=4",
+            "trackCensoredName": "Swift",
+            "fileSizeBytes": 445473,
+            "formattedPrice": "$3.99",
+            "trackViewUrl": "https://books.apple.com/us/book/swift/id893520993?uo=4",
+            "trackId": 893520993,
+            "trackName": "Swift",
+            "releaseDate": "2013-11-11T08:00:00Z",
+            "genreIds": [
+                "9031",
+                "38",
+                "10047"
+            ],
+            "artistIds": [
+                893521018
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 893521018,
+            "artistName": "Alec Merrill",
+            "genres": [
+                "Fiction & Literature",
+                "Books",
+                "Historical"
+            ],
+            "price": 3.99,
+            "description": "The summer of 1744 in England is dry; with crops beginning to fail, poaching is the only alternative to starvation, even though it is illegal and carries a heavy punishment. As sixteen-year-old Jonathan Swift carefully slides through dry brush in the dark, he hopes to bag some game to help feed his family. As a branch cracks nearby, Jonathan suddenly realizes he is not alone. Moments later, he manages to shed his pursuer and arrives home, shaken. His escape is temporary, however, and events will soon take a turn that changes the direction of Jonathan's life forever.\n\t\t\t\n\t\t\tFrustrated when they cannot catch him in the act of poaching, the squire's men ambush Jonathan and leave him for dead on a Royal Navy ship. Although he has never been on a ship before, Swift finds he is a new member of HMS Winchester's company. Unaccustomed to disciplined shipboard life and without friends, family, or security, he soon realizes that he must persevere or die.\n\t\t\t\n\t\t\tIn this historical tale, a young man pressed into the navy discovers that his destiny is more dangerous than he ever imagined when he finds himself in the midst of an attack on the most formidable fort in North America."
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication125/v4/05/e7/ec/05e7ec1f-82ce-da88-68f8-dab055e5305f/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication125/v4/05/e7/ec/05e7ec1f-82ce-da88-68f8-dab055e5305f/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/graham-swift/2092727?uo=4",
+            "trackCensoredName": "Mothering Sunday",
+            "fileSizeBytes": 2589347,
+            "formattedPrice": "$12.99",
+            "trackViewUrl": "https://books.apple.com/us/book/mothering-sunday/id1031069461?uo=4",
+            "trackId": 1031069461,
+            "trackName": "Mothering Sunday",
+            "releaseDate": "2016-04-19T07:00:00Z",
+            "genreIds": [
+                "10049",
+                "38",
+                "9031",
+                "9003",
+                "10059",
+                "10047"
+            ],
+            "artistIds": [
+                2092727
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 2092727,
+            "artistName": "Graham Swift",
+            "genres": [
+                "Literary",
+                "Books",
+                "Fiction & Literature",
+                "Romance",
+                "Historical",
+                "Historical"
+            ],
+            "price": 12.99,
+            "description": "A luminous, intensely moving tale that begins with a secret lovers’ assignation in the spring of 1924, then unfolds to reveal the whole of a remarkable life. <br /> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <br />Twenty-two-year-old Jane Fairchild has worked as a maid at an English country house since she was sixteen. For almost all of those years she has been the clandestine lover to Paul Sheringham, young heir of a neighboring house. The two now meet on an unseasonably warm March day—Mothering Sunday—a day that will change Jane’s life forever. <br /> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <br />As the narrative moves back and forth from 1924 to the end of the century, what we know and understand about Jane—about the way she loves, thinks, feels, sees, remembers—expands with every vividly captured moment. Her story is one of profound self-discovery, and through her, Graham Swift has created an emotionally soaring, deeply affecting work of fiction.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 31
+        },
+        {
+            "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Publication4/v4/fd/df/d9/fddfd954-3da6-8b20-424f-ae9c5f417d37/source/60x60bb.jpg",
+            "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Publication4/v4/fd/df/d9/fddfd954-3da6-8b20-424f-ae9c5f417d37/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/v-m-black/833917003?uo=4",
+            "trackCensoredName": "Life Blood",
+            "fileSizeBytes": 294419,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/life-blood/id914635678?uo=4",
+            "trackId": 914635678,
+            "trackName": "Life Blood",
+            "releaseDate": "2014-08-31T07:00:00Z",
+            "genreIds": [
+                "10058",
+                "38",
+                "9003",
+                "9020",
+                "10044",
+                "11004"
+            ],
+            "artistIds": [
+                833917003
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 833917003,
+            "artistName": "V. M. Black",
+            "genres": [
+                "Paranormal",
+                "Books",
+                "Romance",
+                "Sci-Fi & Fantasy",
+                "Fantasy",
+                "Paranormal"
+            ],
+            "price": 0.00,
+            "description": "A world in which vampires are born, not made....<br /><br />\n\tShe wanted life. He needed her blood.<br /><br />\n\tCora Shaw will do anything to live. Diagnosed with terminal cancer in her senior year of college, she is given a choice: Call hospice, or seek out a mysterious man who promises an impossible—and insanely dangerous—cure.<br /><br />\n\tShe knows him only as Mr. Thorne, a reclusive billionaire who seems full of contradictions. A man with strange, impossible powers over her.<br /><br />\n\tA man, she discovers, who is not a man at all.",
+            "averageUserRating": 4.0,
+            "userRatingCount": 104
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication128/v4/41/69/af/4169af24-25e3-aa76-38cd-ce3f81eaa884/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication128/v4/41/69/af/4169af24-25e3-aa76-38cd-ce3f81eaa884/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/glenn-carmichael/1268463557?uo=4",
+            "trackCensoredName": "Teaching Swift",
+            "fileSizeBytes": 20917617,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/teaching-swift/id1271030756?uo=4",
+            "trackId": 1271030756,
+            "trackName": "Teaching Swift",
+            "releaseDate": "2017-08-07T07:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                1268463557
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 1268463557,
+            "artistName": "Glenn Carmichael",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This Book will help you take your students from novice to coding their own app in one Semester.&#xa0; It gives pre-programmed screens that allow students to copy and paste elements of their app such as Google Maps, access to the camera or websites.&#xa0; It contains instructional videos going through each step required to create their own app."
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication128/v4/83/bf/2a/83bf2a74-499e-55fc-46b1-ef9b7b82ade9/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication128/v4/83/bf/2a/83bf2a74-499e-55fc-46b1-ef9b7b82ade9/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/t-jefferson-parker/279503597?uo=4",
+            "trackCensoredName": "Swift Vengeance",
+            "fileSizeBytes": 1520754,
+            "formattedPrice": "$9.99",
+            "trackViewUrl": "https://books.apple.com/us/book/swift-vengeance/id1317546731?uo=4",
+            "trackId": 1317546731,
+            "trackName": "Swift Vengeance",
+            "releaseDate": "2018-08-21T07:00:00Z",
+            "genreIds": [
+                "9032",
+                "38"
+            ],
+            "artistIds": [
+                279503597
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 279503597,
+            "artistName": "T. Jefferson Parker",
+            "genres": [
+                "Mysteries & Thrillers",
+                "Books"
+            ],
+            "price": 9.99,
+            "description": "<b>In this incendiary thriller from three-time Edgar Award winner and <i>New York Times</i> bestselling author T. Jefferson Parker, Roland Ford is hunting down a mysterious killer, jockeying for position with the FBI, and risking everything to save a friend in terrible jeopardy.</b><br /><br />Returning hero and private investigator Roland Ford is on the trail of a mysterious killer who is beheading CIA drone operators and leaving puzzling clues at each crime scene. His troubled friend Lindsay Rakes is afraid for her own life and the life of her son after a fellow flight crew member is killed in brutal fashion. Even more terrifying is the odd note the killer left behind: \"Welcome to Caliphornia. This is not the last.\" Ford strikes an uneasy alliance with San Diego-based FBI agent Joan Taucher, who is tough as nails but haunted by what she sees as the Bureau's failure to catch the 9/11 terrorists, many of whom spent their last days in her city. As the killer strikes again, Ford and Taucher dash into the fray, each desperate for their own reasons--each ready to risk it all to stop the killer from doing far more damage.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 98
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication128/v4/ef/ce/2e/efce2ef9-09ef-0fb2-b42c-cd6b5acd3560/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication128/v4/ef/ce/2e/efce2ef9-09ef-0fb2-b42c-cd6b5acd3560/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/kevin-j-mcneish/558790491?uo=4",
+            "trackCensoredName": "Learn to Code in Swift 4",
+            "fileSizeBytes": 1268035097,
+            "formattedPrice": "$24.99",
+            "trackViewUrl": "https://books.apple.com/us/book/learn-to-code-in-swift-4/id942956811?uo=4",
+            "trackId": 942956811,
+            "trackName": "Learn to Code in Swift 4",
+            "releaseDate": "2017-11-12T08:00:00Z",
+            "genreIds": [
+                "10023",
+                "38",
+                "9027"
+            ],
+            "artistIds": [
+                558790491
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 558790491,
+            "artistName": "Kevin J McNeish",
+            "genres": [
+                "Programming",
+                "Books",
+                "Computers & Internet"
+            ],
+            "price": 24.99,
+            "description": "Learn Swift programming from the ground up with award-winning author, and iPhone Life magazine writer/blogger Kevin McNeish! After completing this book, you will have the skills and clear understanding to write well-designed Swift code for your iOS apps.<br /><br />\nThis book has been updated to Swift 4 and therefore requires the use of Xcode 8 or newer. This means you get the most up-to-date information available on Swift.<br /><br />\nThis book assumes no previous programming experience! It teaches you best practices for creating iOS apps in Swift using advanced educational tools such as:<br /><br />\n• 20 embedded step-by-step movies with coding exercises.<br />\n• Interactive diagrams that help you visualize how code works.<br />\n• 25 Swift sample projects<br />\n• An online forum where you can get all your questions answered.<br /><br />\nThis book goes beyond basic syntax and uses practical examples demonstrating how to use the full power of Swift in your iOS apps. It provides clear, in-depth explanations of Swift concepts.<br /><br />\nIn the first few chapters, you learn the basics of Swift programming and then begin applying your knowledge by working through exercises at the end of each chapter that teach you to apply Swift programming principles in real-world apps.<br /><br />\nHere are some of the concepts you will master in this book:<br /><br />\n• Understanding Classes and Objects<br />\n• Working With Optionals<br />\n• Arrays and other Collections<br />\n• Looping and Conditional Statements<br />\n• Advanced Properties<br />\n• Data Types and Conversions<br />\n• Working with Strings<br />\n• Enumerations<br />\n• Initializers<br />\n• Access Control<br />\n• Unit Testing Your Code<br />\n• Inheritance &amp; Polymorphism<br />\n• Mastering Protocols &amp; Delegates<br />\n• The Power of Extensions<br />\n• Generics in the Real World<br />\n• Understanding Closures<br />\n• Handling Errors<br />\n• Appendix containing Swift free functions, data types, and operators",
+            "averageUserRating": 4.5,
+            "userRatingCount": 21
+        },
+        {
+            "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Publication128/v4/b2/67/3a/b2673a22-04bb-4d44-dd44-71eab3d8e3ac/source/60x60bb.jpg",
+            "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Publication128/v4/b2/67/3a/b2673a22-04bb-4d44-dd44-71eab3d8e3ac/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/glenn-carmichael/1268463557?uo=4",
+            "trackCensoredName": "Teaching Swift",
+            "fileSizeBytes": 14227720,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/teaching-swift/id1273600090?uo=4",
+            "trackId": 1273600090,
+            "trackName": "Teaching Swift",
+            "releaseDate": "2017-08-20T07:00:00Z",
+            "genreIds": [
+                "10037",
+                "38",
+                "9029"
+            ],
+            "artistIds": [
+                1268463557
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 1268463557,
+            "artistName": "Glenn Carmichael",
+            "genres": [
+                "Education",
+                "Books",
+                "Professional & Technical"
+            ],
+            "price": 0.00,
+            "description": "This is the third book in the Teaching Swift series.&#xa0; This book goes through adding in web access, scroll views, table views and login screens.&#xa0; This book will help your students to quickly create their very own app without getting bogged down in complex syntax."
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication/v4/a2/0b/f2/a20bf23b-d68a-f338-9ed2-e985b178462c/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication/v4/a2/0b/f2/a20bf23b-d68a-f338-9ed2-e985b178462c/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/travis-roy-e-m-swift/365483437?uo=4",
+            "trackCensoredName": "Eleven Seconds",
+            "fileSizeBytes": 1014374,
+            "formattedPrice": "$13.99",
+            "trackViewUrl": "https://books.apple.com/us/book/eleven-seconds/id357661758?uo=4",
+            "trackId": 357661758,
+            "trackName": "Eleven Seconds",
+            "releaseDate": "2008-12-14T08:00:00Z",
+            "genreIds": [
+                "9008",
+                "38"
+            ],
+            "artistIds": [
+                365483437,
+                365483442
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 365483437,
+            "artistName": "Travis Roy & E. M. Swift",
+            "genres": [
+                "Biographies & Memoirs",
+                "Books"
+            ],
+            "price": 13.99,
+            "description": "In this heartfelt testament to the power of love and the strength of the human spirit, Travis Roy, who suffered a devastating injury eleven seconds into his first college hockey game, reveals how he has managed to cope after the accident and, with the help of family and friends, overcome tremendous barriers to begin a new life.",
+            "averageUserRating": 5.0,
+            "userRatingCount": 70
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication/v4/a7/4b/eb/a74beb32-7406-6559-ab8d-65099ea82ee5/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication/v4/a7/4b/eb/a74beb32-7406-6559-ab8d-65099ea82ee5/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/sarah-parvis/434090174?uo=4",
+            "trackCensoredName": "Taylor Swift",
+            "fileSizeBytes": 9574772,
+            "formattedPrice": "$2.99",
+            "trackViewUrl": "https://books.apple.com/us/book/taylor-swift/id441925407?uo=4",
+            "trackId": 441925407,
+            "trackName": "Taylor Swift",
+            "releaseDate": "2009-09-15T07:00:00Z",
+            "genreIds": [
+                "9008",
+                "38"
+            ],
+            "artistIds": [
+                434090174
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 434090174,
+            "artistName": "Sarah Parvis",
+            "genres": [
+                "Biographies & Memoirs",
+                "Books"
+            ],
+            "price": 2.99,
+            "description": "Country music sensation Taylor Swift has taken the world by storm since the 2006 debut of her first album. The <i>New York Times</i> described her as \"one of pop's finest songwriters, country's foremost pragmatist and more in touch with her inner life than most adults.\" This perfectly giftable Little Book tells Taylor's tale from her roots in Pennsylvania to Nashville to Hollywood. This is a must-have for Taylor Swift fans.",
+            "averageUserRating": 4.5,
+            "userRatingCount": 188
+        },
+        {
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/f7/bd/1c/f7bd1c47-d94e-9918-5067-85320c7c0be4/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/f7/bd/1c/f7bd1c47-d94e-9918-5067-85320c7c0be4/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "Tale of a Tub",
+            "fileSizeBytes": 175434,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/tale-of-a-tub/id481680083?uo=4",
+            "trackId": 481680083,
+            "trackName": "Tale of a Tub",
+            "releaseDate": "1850-01-01T07:00:00Z",
+            "genreIds": [
+                "9031",
+                "38"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Fiction & Literature",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "Tale of a Tub, Jonathan Swift. Revised version of http://ota.ox.ac.uk/id/2214 . A tale of a tub The works of Jonathan Swift : containing interesting and valuable papers, not hitherto published : with a memoir of the author Swift, Jonathan, 1667-1745 Roscoe, Thomas, 1791-1871 Bohn London 1850"
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/ac/b8/29/acb8292d-2cbb-d5ff-da8d-0a7e2f506a09/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication113/v4/ac/b8/29/acb8292d-2cbb-d5ff-da8d-0a7e2f506a09/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jane-austen-jules-verne-jonathan-swift-joseph-conrad/2038186?uo=4",
+            "trackCensoredName": "100 Greatest Classic Books of All Time III",
+            "fileSizeBytes": 23830683,
+            "formattedPrice": "$1.99",
+            "trackViewUrl": "https://books.apple.com/us/book/100-greatest-classic-books-of-all-time-iii/id1448894134?uo=4",
+            "trackId": 1448894134,
+            "trackName": "100 Greatest Classic Books of All Time III",
+            "releaseDate": "2019-01-02T08:00:00Z",
+            "genreIds": [
+                "10042",
+                "38",
+                "9031"
+            ],
+            "artistIds": [
+                2038186,
+                2038168,
+                275915584,
+                2653633,
+                2038317,
+                2656092,
+                190184746,
+                1256130150,
+                2718686,
+                2683818,
+                2683489,
+                275252648,
+                2683453
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 2038186,
+            "artistName": "Jane Austen, Jules Verne, Jonathan Swift, Joseph Conrad, James Joyce, Kate Chopin, L. Frank Baum, L.M. Montgomery, Leo Tolstoy, Lewis Carroll, Louisa May Alcott, Mark Twain & Mary Shelley",
+            "genres": [
+                "Classics",
+                "Books",
+                "Fiction & Literature"
+            ],
+            "price": 1.99,
+            "description": "Enjoy reading 100 classic books from of the greatest authors ever!&#xa0;<br /><br />\r\n<b>James Joyce</b><br />\r\nA Portrait of the Artist as a Young Man<br />\r\nDubliners<br />\r\nUlysses<br />\r\n<b>Jane Austen</b><br />\r\nEmma<br />\r\nMansfield Park<br />\r\nPersuasion<br />\r\nPride and Prejudice<br />\r\nSense and Sensibility<br />\r\n<b>Jonathan Swift</b><br />\r\nGulliver's Travels<br />\r\n<b>Joseph Conrad</b><br />\r\nHeart of Darkness<br />\r\n<b>Jules Verne</b><br />\r\nAround the World in Eighty Days<br />\r\nJourney to the Center of the Earth<br />\r\nTwenty Thousand Leagues under the Sea<br />\r\n<b>Kate Chopin</b><br />\r\nThe Awakening and Selected Short Stories<br />\r\n<b>L. Frank Baum</b><br />\r\nThe Wonderful Wizard of Oz<br />\r\n<b>L.M. Montgomery</b><br />\r\nAnne of Green Gables<br />\r\n<b>Leo Tolstoy</b><br />\r\nAnna Karenina<br />\r\nWar and Peace<br />\r\n<b>Lewis Carroll</b><br />\r\nAlice in Wonderland<br />\r\nThrough the Looking-Glass<br />\r\n<b>Louisa May Alcott</b><br />\r\nLittle Women<br />\r\n<b>Mark Twain</b><br />\r\nRoughing It<br />\r\nThe Adventures of Tom Sawyer<br />\r\nThe Adventures of Huckleberry Finn<br />\r\n<b>Mary Shelley</b><br />\r\nFrankenstein"
+        },
+        {
+            "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication7/v4/d5/80/0d/d5800daf-9631-a455-a72c-a734a6b013f4/source/60x60bb.jpg",
+            "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication7/v4/d5/80/0d/d5800daf-9631-a455-a72c-a734a6b013f4/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "The Poems of Jonathan Swift, D.D., Volume 1",
+            "fileSizeBytes": 401471,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/the-poems-of-jonathan-swift-d-d-volume-1/id510859011?uo=4",
+            "trackId": 510859011,
+            "trackName": "The Poems of Jonathan Swift, D.D., Volume 1",
+            "releaseDate": "1745-10-19T07:00:00Z",
+            "genreIds": [
+                "10093",
+                "38",
+                "9031"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Poetry",
+                "Books",
+                "Fiction & Literature"
+            ],
+            "price": 0.00,
+            "description": "The works of Jonathan Swift in prose and verse so mutually illustrate<br />\neach other, that it was deemed indispensable, as a complement to the<br />\nstandard edition of the Prose Works, to issue a revised edition of the<br />\nPoems, freed from the errors which had been allowed to creep into the<br />\ntext, and illustrated with fuller explanatory notes. My first care, <br />\ntherefore, in preparing the Poems for publication, was to collate them<br />\nwith the earliest and best editions available, and this I have done."
+        },
+        {
+            "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Publication7/v4/dd/32/12/dd32123b-c13f-d2a9-d586-ab07b329979e/source/60x60bb.jpg",
+            "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Publication7/v4/dd/32/12/dd32123b-c13f-d2a9-d586-ab07b329979e/source/100x100bb.jpg",
+            "artistViewUrl": "https://books.apple.com/us/artist/jonathan-swift/275915584?uo=4",
+            "trackCensoredName": "A Tale of a Tub",
+            "fileSizeBytes": 134216,
+            "formattedPrice": "Free",
+            "trackViewUrl": "https://books.apple.com/us/book/a-tale-of-a-tub/id491662393?uo=4",
+            "trackId": 491662393,
+            "trackName": "A Tale of a Tub",
+            "releaseDate": "1745-01-01T07:00:00Z",
+            "genreIds": [
+                "9012",
+                "38"
+            ],
+            "artistIds": [
+                275915584
+            ],
+            "kind": "ebook",
+            "currency": "USD",
+            "artistId": 275915584,
+            "artistName": "Jonathan Swift",
+            "genres": [
+                "Humor",
+                "Books"
+            ],
+            "price": 0.00,
+            "description": "A Character of the prefent Set of Wits in this<br />\nIfland. A Panegyrical Effay upon the Number<br />\nThree. A Differtation upon the principal productions of Grub-ftree. Lectures upon the Diffection<br />\nof Human Nature. A Panegyrick upon the World.<br />\nAn Analytical Difcourfe upon Zeal, Hiftori-theophyfi-logically confidered. A general Hiftory of<br />\nEars. A modeft Defence of the Proceedings of the<br />\nRabble in all Ages. A Defcription of the Kingdom<br />\nof Abfurdities. A Voyage into England, by a Perfon<br />\nof Quality in Terra Auftralis incognita, tranflated<br />\nfrom the Original. A Critical Effay upon the Art<br />\nof Canting, Philofophically, Phyfically, and<br />\nMufically confidered"
+        }
+    ]
+}
+
