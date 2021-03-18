@@ -34,6 +34,9 @@
 		6C640ABA26027E1F00846703 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640AB926027E1F00846703 /* APIManager.swift */; };
 		6C640AC026027F9C00846703 /* EBooks_stub_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C640ABF26027F9C00846703 /* EBooks_stub_response.json */; };
 		6C8CDF4B2603A9D500FEAD9A /* ListingInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF4A2603A9D500FEAD9A /* ListingInteractorTests.swift */; };
+		6C8CDF632603BF5200FEAD9A /* EBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF612603BF5200FEAD9A /* EBookTableViewCell.swift */; };
+		6C8CDF642603BF5200FEAD9A /* EBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8CDF622603BF5200FEAD9A /* EBookTableViewCell.xib */; };
+		6C8CDF6A2603C53F00FEAD9A /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */; };
 		CF743F9F9A330C33393B7DD5 /* Pods_ebooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D4A2DAD55AD654A992295 /* Pods_ebooks.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +93,9 @@
 		6C640AB926027E1F00846703 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		6C640ABF26027F9C00846703 /* EBooks_stub_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EBooks_stub_response.json; sourceTree = "<group>"; };
 		6C8CDF4A2603A9D500FEAD9A /* ListingInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractorTests.swift; sourceTree = "<group>"; };
+		6C8CDF612603BF5200FEAD9A /* EBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookTableViewCell.swift; sourceTree = "<group>"; };
+		6C8CDF622603BF5200FEAD9A /* EBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EBookTableViewCell.xib; sourceTree = "<group>"; };
+		6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		963D4A2DAD55AD654A992295 /* Pods_ebooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ebooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ED7AE2D5AF55FA29F5A331 /* Pods-ebooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ebooksTests.debug.xcconfig"; path = "Target Support Files/Pods-ebooksTests/Pods-ebooksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8BEDFF9627FC56935F7A3DD /* libPods-ebooksUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ebooksUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,6 +264,7 @@
 		6C6409E12600F25C00846703 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6C8CDF682603C52800FEAD9A /* Extensions */,
 				6C640AA626024A4E00846703 /* UIElements */,
 				6C640A3F26012E5600846703 /* DataManagers */,
 				6C640A0C2601038500846703 /* Errors */,
@@ -335,8 +342,18 @@
 		6C6415462603596A0083C981 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				6C8CDF612603BF5200FEAD9A /* EBookTableViewCell.swift */,
+				6C8CDF622603BF5200FEAD9A /* EBookTableViewCell.xib */,
 			);
 			path = UIElements;
+			sourceTree = "<group>";
+		};
+		6C8CDF682603C52800FEAD9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C8CDF692603C53F00FEAD9A /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8CDF642603BF5200FEAD9A /* EBookTableViewCell.xib in Resources */,
 				6C640AC026027F9C00846703 /* EBooks_stub_response.json in Resources */,
 				6C6409AB2600ED3600846703 /* LaunchScreen.storyboard in Resources */,
 				6C6409A82600ED3600846703 /* Assets.xcassets in Resources */,
@@ -608,6 +626,8 @@
 				6C6409A62600ED3400846703 /* ebooks.xcdatamodeld in Sources */,
 				6C640A312601277E00846703 /* EBook.swift in Sources */,
 				6C640A0E260103B000846703 /* CleanNetworkError.swift in Sources */,
+				6C8CDF632603BF5200FEAD9A /* EBookTableViewCell.swift in Sources */,
+				6C8CDF6A2603C53F00FEAD9A /* UIImageView+Extensions.swift in Sources */,
 				6C640A562601379000846703 /* ListingWorker.swift in Sources */,
 				6C640A3B260129E900846703 /* ListingModels.swift in Sources */,
 				6C640A4126012E8D00846703 /* EBookDataManager.swift in Sources */,

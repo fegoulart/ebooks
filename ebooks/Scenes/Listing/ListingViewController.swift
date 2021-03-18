@@ -20,6 +20,7 @@ final class ListingViewController:
     var interactor: ListingBusinessLogic?
     var displayedEBooks: [ListingPage.DisplayedShortEBook] = []
     let cellReuseIdentifier = "ebookCell"
+    let cellNibName = "EBookTableViewCell"
 
     @IBOutlet var listingTableView: UITableView!
 
@@ -61,13 +62,17 @@ extension ListingViewController {
     }
 
     func setupUI() {
+        title = "In Your Library"
         setupTableView()
     }
 
     private func setupTableView() {
-        self.listingTableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
+        self.listingTableView.register(
+            UINib(nibName: cellNibName, bundle: nil),
+            forCellReuseIdentifier: cellReuseIdentifier)
         listingTableView.delegate = self
         listingTableView.dataSource = self
+        self.listingTableView.rowHeight = 100
     }
 }
 
@@ -80,9 +85,13 @@ extension ListingViewController {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell? =
-            self.listingTableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as UITableViewCell?
-        cell?.textLabel?.text = self.displayedEBooks[indexPath.row].title
+        let cell =
+            self.listingTableView.dequeueReusableCell(
+                withIdentifier: cellReuseIdentifier) as? EBookTableViewCell
+        cell?.bookAuthorLabel.text = self.displayedEBooks[indexPath.row].author
+        cell?.bookTitleLabel.text = self.displayedEBooks[indexPath.row].title
+        cell?.bookCoverImageView.download(image: self.displayedEBooks[indexPath.row].artworkUrl)
+
         return cell ?? UITableViewCell()
     }
 

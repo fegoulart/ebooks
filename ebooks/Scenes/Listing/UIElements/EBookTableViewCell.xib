@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ebookCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ebookCell" rowHeight="120" translatesAutoresizingMaskIntoConstraints="NO" id="KGk-i7-Jjw" customClass="EBookTableViewCell" customModule="ebooks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nxc-cr-GTG">
+                        <rect key="frame" x="20" y="20" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="nxc-cr-GTG" secondAttribute="height" multiplier="1:1" id="T1w-5o-wce"/>
+                            <constraint firstAttribute="width" constant="60" id="dlb-Kt-eJU"/>
+                            <constraint firstAttribute="height" constant="60" id="ydk-fO-aRq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introdução ao Desenvolvimento de Apps com Swift" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lz2-f8-wAq">
+                        <rect key="frame" x="90" y="20" width="210" height="33.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeK-IJ-c56">
+                        <rect key="frame" x="90" y="61.5" width="210" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <color key="highlightedColor" systemColor="systemGray2Color"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YeK-IJ-c56" firstAttribute="top" secondItem="lz2-f8-wAq" secondAttribute="bottom" constant="8" symbolic="YES" id="AKE-Kp-TtI"/>
+                    <constraint firstItem="YeK-IJ-c56" firstAttribute="leading" secondItem="lz2-f8-wAq" secondAttribute="leading" id="IwH-WZ-xtf"/>
+                    <constraint firstItem="nxc-cr-GTG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Jbc-i9-xth"/>
+                    <constraint firstAttribute="trailing" secondItem="YeK-IJ-c56" secondAttribute="trailing" constant="20" id="QEc-O1-RTB"/>
+                    <constraint firstItem="lz2-f8-wAq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Vci-br-3tH"/>
+                    <constraint firstItem="nxc-cr-GTG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZHs-oB-bpc"/>
+                    <constraint firstItem="lz2-f8-wAq" firstAttribute="leading" secondItem="nxc-cr-GTG" secondAttribute="trailing" constant="10" id="mou-No-Udx"/>
+                    <constraint firstAttribute="trailing" secondItem="lz2-f8-wAq" secondAttribute="trailing" constant="20" id="olW-6A-JoL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bookAuthorLabel" destination="YeK-IJ-c56" id="fqY-3Z-ON2"/>
+                <outlet property="bookCoverImageView" destination="nxc-cr-GTG" id="qik-nJ-izZ"/>
+                <outlet property="bookTitleLabel" destination="lz2-f8-wAq" id="rZs-Vo-xU0"/>
+            </connections>
+            <point key="canvasLocation" x="-94.20289855072464" y="71.651785714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
