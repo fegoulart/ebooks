@@ -12,25 +12,21 @@ import Alamofire
 protocol GeneralAPI {
     static func callApi<T: Decodable>(_ target: APIRouter,
                                       dataReturnType: T.Type,
-                                      test: Bool,
-                                      debugMode: Bool) -> Promise<T>
+                                      test: Bool) -> Promise<T>
 }
 
-struct APIManager: GeneralAPI {
+class APIManager: GeneralAPI {
     static func callApi<ReturnedObject: Decodable>(_ target: APIRouter,
                                                    dataReturnType: ReturnedObject.Type,
-                                                   test: Bool = false,
-                                                   debugMode: Bool = false) -> Promise<ReturnedObject> {
+                                                   test: Bool = false) -> Promise<ReturnedObject> {
         if test {
             stub(condition: isHost(APIConfig.baseDomain) ) { _ in
-                // swiftlint:disable force_cast
                 guard let path =
                         OHPathForFile(
-    "Stubs/\(ReturnedObject.self)resource_success_response.json",
-                            ReturnedObject.self as! AnyClass) else {
+                            "\(String(describing: dataReturnType).self)_stub_response.json",
+                             self as AnyClass) else {
                     preconditionFailure("Could not find expected file in test bundle")
                 }
-                // swiftlint:enable force_cast
                 return fixture(filePath: path, status: 200, headers: ["Content-Type":"application/json"])
             }
         }
