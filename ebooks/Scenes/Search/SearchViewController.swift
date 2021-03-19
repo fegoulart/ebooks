@@ -46,6 +46,7 @@ final class SearchViewController:
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        clearSearchBar()
         getTrendings()
     }
 
@@ -78,6 +79,13 @@ extension SearchViewController {
         title = ""
         setupTableView()
         setupSearchBar()
+        hideKeyboard()
+    }
+
+    private func hideKeyboard() {
+        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tapGesture)
+        tapGesture.cancelsTouchesInView = false
     }
 
     private func setupTableView() {
@@ -107,6 +115,8 @@ extension SearchViewController {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        eBookSearchBar.text = displayedTrendings[indexPath.row].title
+        eBookSearchBar.becomeFirstResponder()
     }
 
 }
@@ -127,6 +137,10 @@ extension SearchViewController {
 // MARK: Actions
 
 extension SearchViewController {
+
+    func clearSearchBar() {
+        eBookSearchBar.text = ""
+    }
 
     func getTrendings() {
         let request = SearchPage.GetTrendings.Request()
