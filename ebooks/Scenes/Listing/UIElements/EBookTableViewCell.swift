@@ -9,9 +9,9 @@ import UIKit
 
 class EBookTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var bookCoverImageView: UIImageView!
-    @IBOutlet weak var bookTitleLabel: UILabel!
-    @IBOutlet weak var bookAuthorLabel: UILabel!
+    @IBOutlet private weak var bookCoverImageView: UIImageView!
+    @IBOutlet private weak var bookTitleLabel: UILabel!
+    @IBOutlet private weak var bookAuthorLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,5 +19,11 @@ class EBookTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+
+    func setupCell(displayedEBook: ListingPage.DisplayedEBook) {
+        self.bookCoverImageView.download(image: displayedEBook.artworkUrl60 ?? "")
+        self.bookTitleLabel.text = displayedEBook.title
+        self.bookAuthorLabel.text = displayedEBook.author
     }
 }

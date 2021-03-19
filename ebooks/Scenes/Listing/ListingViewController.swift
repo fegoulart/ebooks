@@ -93,9 +93,7 @@ extension ListingViewController {
         let cell =
             self.listingTableView.dequeueReusableCell(
                 withIdentifier: cellReuseIdentifier) as? EBookTableViewCell
-        cell?.bookAuthorLabel.text = self.displayedEBooks[indexPath.row].author
-        cell?.bookTitleLabel.text = self.displayedEBooks[indexPath.row].title
-        cell?.bookCoverImageView.download(image: self.displayedEBooks[indexPath.row].artworkUrl60 ?? "")
+        cell?.setupCell(displayedEBook: self.displayedEBooks[indexPath.row])
 
         return cell ?? UITableViewCell()
     }
