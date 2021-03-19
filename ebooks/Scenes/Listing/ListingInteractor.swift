@@ -6,7 +6,7 @@
 //
 
 protocol ListingBusinessLogic {
-    func fetchTerm(request: ListingPage.FetchEBooks.Request)
+    func getEBooks(request: ListingPage.GetEBooks.Request)
 }
 
 protocol ListingDataStore {
@@ -18,22 +18,15 @@ class ListingInteractor: ListingBusinessLogic, ListingDataStore {
     var worker = ListingWorker()
     var eBooks: [EBook]?
 
-    func fetchTerm(request: ListingPage.FetchEBooks.Request) {
-        var response: ListingPage.FetchEBooks.Response!
-        self.worker.eBookDataManager.getEBooks(from: request.term).done { receivedEBooks in
-            var newEBooks: [EBook] = []
-            for eBook in receivedEBooks.results ?? [] {
-                newEBooks.append(eBook)
-            }
-            self.eBooks = newEBooks
-            response = ListingPage.FetchEBooks.Response(eBooks: self.eBooks, error: nil)
-
-        }.catch { error in
-            response = ListingPage.FetchEBooks.Response(
-                eBooks: nil,
-                error: ListingError.couldNotFetchEBooks(error: error.localizedDescription))
-        }.finally {
-            self.presenter?.presentListing(response: response)
+    func getEBooks(request: ListingPage.GetEBooks.Request) {
+        guard let listingEBooks = eBooks else {
+            presenter?.presentListing(
+                response: ListingPage.GetEBooks.Response(
+                    eBooks: nil,
+                    error: ListingError.couldNotFetchEBooks(error: "Could not fetch books")))
+            return
         }
+        let response = ListingPage.GetEBooks.Response(eBooks: listingEBooks)
+        presenter?.presentListing(response: response)
     }
 }

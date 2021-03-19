@@ -8,7 +8,7 @@
 import UIKit
 
 protocol ListingDisplayLogic: AnyObject {
-    func displayListing(viewModel: ListingPage.FetchEBooks.ViewModel)
+    func displayListing(viewModel: ListingPage.GetEBooks.ViewModel)
 }
 
 final class ListingViewController:
@@ -38,6 +38,7 @@ final class ListingViewController:
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        getEBooks()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -109,11 +110,15 @@ extension ListingViewController {
 
 extension ListingViewController {
 
-    func displayListing(viewModel: ListingPage.FetchEBooks.ViewModel) {
+    func getEBooks() {
+        interactor?.getEBooks(request: ListingPage.GetEBooks.Request())
+    }
+
+    func displayListing(viewModel: ListingPage.GetEBooks.ViewModel) {
         setupListingDisplay(viewModel: viewModel)
     }
 
-    private func setupListingDisplay(viewModel: ListingPage.FetchEBooks.ViewModel) {
+    private func setupListingDisplay(viewModel: ListingPage.GetEBooks.ViewModel) {
         guard viewModel.error == nil else {
             Alert.showUnableToRetrieveDataAlert(on: self)
             return
