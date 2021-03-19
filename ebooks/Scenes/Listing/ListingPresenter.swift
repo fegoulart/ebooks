@@ -6,14 +6,14 @@
 //
 
 protocol ListingPresentationLogic {
-    func presentListing(response: ListingPage.FetchEBooks.Response)
+    func presentListing(response: ListingPage.GetEBooks.Response)
 }
 
 final class ListingPresenter: ListingPresentationLogic {
     weak var viewController: ListingDisplayLogic?
-    func presentListing(response: ListingPage.FetchEBooks.Response) {
+    func presentListing(response: ListingPage.GetEBooks.Response) {
         let displayedEBooks = getDisplayedEBooks(response.eBooks)
-        let viewModel = ListingPage.FetchEBooks.ViewModel(displayedEBooks: displayedEBooks, error: nil)
+        let viewModel = ListingPage.GetEBooks.ViewModel(displayedEBooks: displayedEBooks, error: nil)
         viewController?.displayListing(viewModel: viewModel)
     }
 }

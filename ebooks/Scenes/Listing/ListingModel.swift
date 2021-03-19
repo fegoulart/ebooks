@@ -21,9 +21,8 @@ enum ListingPage {
         var userRatingCount: Int?
     }
     // swiftlint:disable nesting
-    enum FetchEBooks {
+    enum GetEBooks {
         struct Request {
-            var term: String
             var isTest: Bool = false
         }
 
