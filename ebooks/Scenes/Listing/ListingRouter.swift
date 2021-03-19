@@ -27,10 +27,10 @@ class ListingRouter: NSObject, ListingRoutingLogic, ListingDataPassing, RouterPr
         guard let eBook = selectedEBook else { return }
 
         show(nibIdentifier: "SingleEBookViewController") { (destinationVC: SingleEBookViewController) in
-            var destinationDS: SingleEBookDataStore =
-                destinationVC.router!.dataStore!
-                as! SingleEBookDataStore
-            self.passDataToEBookPage(source: eBook, destination: &destinationDS)
+
+            if var destinationDS: SingleEBookDataStore = destinationVC.router?.dataStore {
+                self.passDataToEBookPage(source: eBook, destination: &destinationDS)
+            }
         }
     }
 
