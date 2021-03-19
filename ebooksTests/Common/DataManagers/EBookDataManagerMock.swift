@@ -8,15 +8,25 @@
 import PromiseKit
 @testable import ebooks
 
-final class EBookDataManagerMock: EBookDataManager {
-    var getEBooksCalled = false
+protocol EBookNetworkInjectedMock {
+}
 
+struct EBookNetworkInjectorMock {
+    static var networkManager: EBookDataManager = EBookNetworkManagerMock()
+}
+
+extension EBookNetworkInjectedMock {
+    var eBookDataManager: EBookDataManager {
+        return EBookNetworkInjectorMock.networkManager
+    }
+}
+
+final class EBookNetworkManagerMock: EBookDataManager {
     func getEBooks(from term: String) -> Promise<EBooks> {
         return APIManager.callApi(
             APIRouter(
                 route: Route.getBooks(term: term)),
-            dataReturnType: EBooks.self,
-            test: true)
+            dataReturnType: EBooks.self)
     }
 }
 

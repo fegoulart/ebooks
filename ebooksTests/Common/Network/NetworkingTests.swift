@@ -36,7 +36,6 @@ class NetworkingTests: XCTestCase {
                 preconditionFailure("Could not find expected file in test bundle")
             }
             return fixture(filePath: path, status: 200, headers: ["Content-Type":"application/json"])
-
         }
 
         let expectation = self.expectation(description: "Get EBooks")

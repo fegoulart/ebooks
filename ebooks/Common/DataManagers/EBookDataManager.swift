@@ -8,19 +8,6 @@
 import PromiseKit
 import Alamofire
 
-protocol EBookNetworkInjected {
-}
-
-struct EBookNetworkInjector {
-    static var networkManager: EBookDataManager = EBookNetworkManager()
-}
-
-extension EBookNetworkInjected {
-    var eBookDataManager: EBookDataManager {
-        return EBookNetworkInjector.networkManager
-    }
-}
-
 protocol EBookDataManager: AnyObject {
     func getEBooks(from term: String) -> Promise<EBooks>
 }

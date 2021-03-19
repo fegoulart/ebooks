@@ -15,7 +15,6 @@ protocol ListingDataStore {
 
 class ListingInteractor: ListingBusinessLogic, ListingDataStore {
     var presenter: ListingPresentationLogic?
-    var worker = ListingWorker()
     var eBooks: [EBook]?
 
     func getEBooks(request: ListingPage.GetEBooks.Request) {
