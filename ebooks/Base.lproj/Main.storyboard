@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="bmg-Gw-1zj" kind="relationship" relationship="rootViewController" id="iri-ll-Uag"/>
+                        <segue destination="k25-mS-fTj" kind="relationship" relationship="rootViewController" id="7xx-Pc-uRA"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Udq-eS-FsC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -27,7 +27,7 @@
         <!--Listing View Controller-->
         <scene sceneID="yGD-yG-EnV">
             <objects>
-                <viewController id="bmg-Gw-1zj" customClass="ListingViewController" customModule="ebooks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListingViewController" id="bmg-Gw-1zj" customClass="ListingViewController" customModule="ebooks" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aJh-4i-wSm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62X-WA-If1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1216" y="-38"/>
+            <point key="canvasLocation" x="-377" y="-38"/>
         </scene>
         <!--SingleE Book View Controller-->
         <scene sceneID="mG2-Dz-2rR">
@@ -116,7 +116,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LPX-Jk-L8C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15.942028985507248" y="-58.258928571428569"/>
+            <point key="canvasLocation" x="643" y="-38"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="hcf-pK-kI2">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="k25-mS-fTj" customClass="SearchViewController" customModule="ebooks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HeY-wF-xeZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="IgF-F9-8h5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tzF-OI-yW9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnw-xL-aEW">
+                                <rect key="frame" x="20" y="108" width="374" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" placeholder="Apple Books" translatesAutoresizingMaskIntoConstraints="NO" id="qZW-cN-Q7C">
+                                <rect key="frame" x="20" y="174" width="374" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htN-Wc-YdB">
+                                <rect key="frame" x="20" y="250" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hv9-hb-Uh1">
+                                <rect key="frame" x="20" y="291" width="374" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ywt-7n-uN6"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Gnw-xL-aEW" secondAttribute="trailing" constant="20" id="Boo-kK-bPM"/>
+                            <constraint firstItem="Gnw-xL-aEW" firstAttribute="leading" secondItem="tzF-OI-yW9" secondAttribute="leading" constant="20" id="FaI-ys-UMU"/>
+                            <constraint firstAttribute="trailing" secondItem="qZW-cN-Q7C" secondAttribute="trailing" constant="20" id="MTO-XM-xgD"/>
+                            <constraint firstItem="Hv9-hb-Uh1" firstAttribute="leading" secondItem="tzF-OI-yW9" secondAttribute="leading" constant="20" symbolic="YES" id="NU5-S1-SDX"/>
+                            <constraint firstAttribute="trailing" secondItem="htN-Wc-YdB" secondAttribute="trailing" constant="20" id="PUO-H8-ZXh"/>
+                            <constraint firstItem="htN-Wc-YdB" firstAttribute="leading" secondItem="tzF-OI-yW9" secondAttribute="leading" constant="20" id="fBs-60-drH"/>
+                            <constraint firstItem="qZW-cN-Q7C" firstAttribute="top" secondItem="Gnw-xL-aEW" secondAttribute="bottom" constant="20" id="gFd-Q9-1rh"/>
+                            <constraint firstItem="qZW-cN-Q7C" firstAttribute="leading" secondItem="tzF-OI-yW9" secondAttribute="leading" constant="20" id="iuC-f0-AvX"/>
+                            <constraint firstItem="htN-Wc-YdB" firstAttribute="top" secondItem="qZW-cN-Q7C" secondAttribute="bottom" constant="20" id="rfg-FG-NNj"/>
+                            <constraint firstAttribute="trailing" secondItem="Hv9-hb-Uh1" secondAttribute="trailing" constant="20" id="rmN-so-a4Q"/>
+                            <constraint firstItem="Gnw-xL-aEW" firstAttribute="top" secondItem="HeY-wF-xeZ" secondAttribute="bottom" constant="20" id="tPd-aj-nOp"/>
+                            <constraint firstItem="Hv9-hb-Uh1" firstAttribute="top" secondItem="htN-Wc-YdB" secondAttribute="bottom" constant="20" id="wD8-HV-s2u"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Bf-6D-i2L"/>
+                    <connections>
+                        <outlet property="eBookSearchBar" destination="qZW-cN-Q7C" id="2nW-y0-GI0"/>
+                        <outlet property="trendingTableView" destination="Hv9-hb-Uh1" id="ANd-zx-0eQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8GH-G4-FVl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1461" y="-38"/>
         </scene>
     </scenes>
     <resources>

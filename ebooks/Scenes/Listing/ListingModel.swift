@@ -33,7 +33,7 @@ enum ListingPage {
         }
 
         struct ViewModel {
-            var displayedShortEBooks: [DisplayedEBook]
+            var displayedEBooks: [DisplayedEBook]
             var error: ListingError?
         }
     }

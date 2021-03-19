@@ -10,7 +10,7 @@ protocol ListingBusinessLogic {
 }
 
 protocol ListingDataStore {
-    var eBooks: [EBook]? { get }
+    var eBooks: [EBook]? { get set }
 }
 
 class ListingInteractor: ListingBusinessLogic, ListingDataStore {

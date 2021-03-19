@@ -13,7 +13,7 @@ final class ListingPresenter: ListingPresentationLogic {
     weak var viewController: ListingDisplayLogic?
     func presentListing(response: ListingPage.FetchEBooks.Response) {
         let displayedEBooks = getDisplayedEBooks(response.eBooks)
-        let viewModel = ListingPage.FetchEBooks.ViewModel(displayedShortEBooks: displayedEBooks, error: nil)
+        let viewModel = ListingPage.FetchEBooks.ViewModel(displayedEBooks: displayedEBooks, error: nil)
         viewController?.displayListing(viewModel: viewModel)
     }
 }

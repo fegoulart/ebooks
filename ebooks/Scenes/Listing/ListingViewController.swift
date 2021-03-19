@@ -38,7 +38,6 @@ final class ListingViewController:
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        fetchEBooks()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -110,11 +109,6 @@ extension ListingViewController {
 
 extension ListingViewController {
 
-    func fetchEBooks() {
-        let request = ListingPage.FetchEBooks.Request(term: "swift")
-        interactor?.fetchTerm(request: request)
-    }
-
     func displayListing(viewModel: ListingPage.FetchEBooks.ViewModel) {
         setupListingDisplay(viewModel: viewModel)
     }
@@ -124,7 +118,7 @@ extension ListingViewController {
             Alert.showUnableToRetrieveDataAlert(on: self)
             return
         }
-        displayedEBooks = viewModel.displayedShortEBooks
+        displayedEBooks = viewModel.displayedEBooks
         listingTableView.reloadData()
     }
 }
