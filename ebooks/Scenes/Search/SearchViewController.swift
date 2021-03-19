@@ -42,11 +42,11 @@ final class SearchViewController:
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        getTrendings()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        getTrendings()
     }
 
     override func viewWillLayoutSubviews() {
@@ -96,10 +96,10 @@ extension SearchViewController {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell =
-            self.trendingTableView.dequeueReusableCell(
-                withIdentifier: cellReuseIdentifier)
-        cell?.textLabel?.text = displayedTrendings[indexPath.row].title
-        return cell ?? UITableViewCell()
+            (trendingTableView.dequeueReusableCell(
+                withIdentifier: cellReuseIdentifier) ?? UITableViewCell()) as UITableViewCell
+        cell.textLabel?.text = displayedTrendings[indexPath.row].title
+        return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -114,6 +114,7 @@ extension SearchViewController {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let term = searchBar.text else { return }
         if (term != "") {
+            self.saveTrending(trending: term)
             self.fetchEBooks(term: term)
         }
     }
@@ -126,6 +127,11 @@ extension SearchViewController {
     func getTrendings() {
         let request = SearchPage.GetTrendings.Request()
         interactor?.getTrendings(request: request)
+    }
+
+    func saveTrending(trending: String) {
+        let request = SearchPage.SaveTrending.Request(term: trending)
+        interactor?.saveTrending(request: request)
     }
 
     func fetchEBooks(term: String) {
