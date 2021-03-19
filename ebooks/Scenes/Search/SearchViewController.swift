@@ -68,6 +68,10 @@ extension SearchViewController {
         presenter.viewController = viewController
         router.viewController = viewController
         router.dataStore = interactor
+        let dataManager = EBookNetworkManager()
+        interactor.worker = SearchWorker(dataManager: dataManager)
+        let trendingDataManager = TrendingLocalStorageManager()
+        interactor.trendingWorker = SearchTrendingWorker(dataManager: trendingDataManager)
     }
 
     func setupUI() {

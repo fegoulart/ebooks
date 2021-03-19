@@ -7,19 +7,6 @@
 
 import PromiseKit
 
-protocol TrendingLocalStorageInjected {
-}
-
-struct TrendingLocalStorageInjector {
-    static var localStorageManager: TrendingDataManager = TrendingLocalStorageManager()
-}
-
-extension TrendingLocalStorageInjected {
-    var trendingDataManager: TrendingDataManager {
-        return TrendingLocalStorageInjector.localStorageManager
-    }
-}
-
 protocol TrendingDataManager: AnyObject {
     func getTrendings() -> Promise<[String]>
     func saveTrending(term: String) -> Promise<Bool>

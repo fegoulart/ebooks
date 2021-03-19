@@ -50,6 +50,8 @@ class APIRouter: URLRequestConvertible {
         urlRequest.setValue(
 "\(APIConfig.HTTPHeaderFieldValue.json.rawValue), \(APIConfig.HTTPHeaderFieldValue.javascript.rawValue)",
             forHTTPHeaderField: APIConfig.HTTPHeaderFieldKey.acceptType.rawValue)
+        urlRequest.setValue("\(APIConfig.HTTPHeaderFieldValue.json.rawValue)",
+                            forHTTPHeaderField: APIConfig.HTTPHeaderFieldKey.contentType.rawValue)
         if let body = body {
             do {
                 let data = try JSONSerialization.data(withJSONObject: body, options: .prettyPrinted)

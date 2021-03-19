@@ -20,6 +20,9 @@
 		6C3A614C26043A7300D061F9 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A614B26043A7300D061F9 /* SearchRouter.swift */; };
 		6C3A615126043D1200D061F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A615026043D1200D061F9 /* SearchViewController.swift */; };
 		6C3A615D26044C4200D061F9 /* SearchInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A615C26044C4200D061F9 /* SearchInteractorTests.swift */; };
+		6C3A61782604543F00D061F9 /* TrendingDataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A61772604543F00D061F9 /* TrendingDataManagerMock.swift */; };
+		6C3A618226045B1700D061F9 /* SearchTrendingWorkerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A618126045B1700D061F9 /* SearchTrendingWorkerMock.swift */; };
+		6C3A61872604630100D061F9 /* SearchPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A61862604630100D061F9 /* SearchPresenterMock.swift */; };
 		6C64099C2600ED3400846703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64099B2600ED3400846703 /* AppDelegate.swift */; };
 		6C64099E2600ED3400846703 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64099D2600ED3400846703 /* SceneDelegate.swift */; };
 		6C6409A02600ED3400846703 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64099F2600ED3400846703 /* ListingViewController.swift */; };
@@ -36,7 +39,6 @@
 		6C640A3B260129E900846703 /* ListingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A3A260129E900846703 /* ListingModel.swift */; };
 		6C640A4126012E8D00846703 /* EBookDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A4026012E8D00846703 /* EBookDataManager.swift */; };
 		6C640A512601375700846703 /* ListingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A502601375700846703 /* ListingError.swift */; };
-		6C640A562601379000846703 /* ListingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A552601379000846703 /* ListingWorker.swift */; };
 		6C640A5B2601390500846703 /* ListingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5A2601390500846703 /* ListingPresenter.swift */; };
 		6C640A6026022C5F00846703 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C640A5F26022C5F00846703 /* NetworkingTests.swift */; };
 		6C640A9F260230D400846703 /* resource_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C640A9E260230D400846703 /* resource_success_response.json */; };
@@ -92,6 +94,9 @@
 		6C3A614B26043A7300D061F9 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		6C3A615026043D1200D061F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6C3A615C26044C4200D061F9 /* SearchInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractorTests.swift; sourceTree = "<group>"; };
+		6C3A61772604543F00D061F9 /* TrendingDataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingDataManagerMock.swift; sourceTree = "<group>"; };
+		6C3A618126045B1700D061F9 /* SearchTrendingWorkerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTrendingWorkerMock.swift; sourceTree = "<group>"; };
+		6C3A61862604630100D061F9 /* SearchPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenterMock.swift; sourceTree = "<group>"; };
 		6C6409982600ED3400846703 /* ebooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C64099B2600ED3400846703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C64099D2600ED3400846703 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,7 +119,6 @@
 		6C640A3A260129E900846703 /* ListingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingModel.swift; sourceTree = "<group>"; };
 		6C640A4026012E8D00846703 /* EBookDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDataManager.swift; sourceTree = "<group>"; };
 		6C640A502601375700846703 /* ListingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingError.swift; sourceTree = "<group>"; };
-		6C640A552601379000846703 /* ListingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingWorker.swift; sourceTree = "<group>"; };
 		6C640A5A2601390500846703 /* ListingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresenter.swift; sourceTree = "<group>"; };
 		6C640A5F26022C5F00846703 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
 		6C640A9E260230D400846703 /* resource_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resource_success_response.json; sourceTree = "<group>"; };
@@ -214,22 +218,15 @@
 			isa = PBXGroup;
 			children = (
 				6C3A615B26044C1E00D061F9 /* Search */,
-				6C1EE62E2603A15400A39C22 /* Listing */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		6C1EE62E2603A15400A39C22 /* Listing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Listing;
 			sourceTree = "<group>";
 		};
 		6C1EE62F2603A40900A39C22 /* DataManagers */ = {
 			isa = PBXGroup;
 			children = (
 				6C1EE6302603A42400A39C22 /* EBookDataManagerMock.swift */,
+				6C3A61772604543F00D061F9 /* TrendingDataManagerMock.swift */,
 			);
 			path = DataManagers;
 			sourceTree = "<group>";
@@ -251,7 +248,10 @@
 		6C3A615B26044C1E00D061F9 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				6C640ABF26027F9C00846703 /* EBooks_stub_response.json */,
 				6C3A615C26044C4200D061F9 /* SearchInteractorTests.swift */,
+				6C3A618126045B1700D061F9 /* SearchTrendingWorkerMock.swift */,
+				6C3A61862604630100D061F9 /* SearchPresenterMock.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -338,7 +338,6 @@
 		6C6409E22600F26800846703 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				6C640ABF26027F9C00846703 /* EBooks_stub_response.json */,
 				6C6409E32600F32400846703 /* ApiConfig.swift */,
 				6C6409EB2600FD6F00846703 /* APIRouter.swift */,
 				6C640AB926027E1F00846703 /* APIManager.swift */,
@@ -382,7 +381,6 @@
 				6C64099F2600ED3400846703 /* ListingViewController.swift */,
 				6C640A352601296800846703 /* ListingInteractor.swift */,
 				6C640A3A260129E900846703 /* ListingModel.swift */,
-				6C640A552601379000846703 /* ListingWorker.swift */,
 				6C640A5A2601390500846703 /* ListingPresenter.swift */,
 				6C8CDF772603CF2F00FEAD9A /* ListingRouter.swift */,
 			);
@@ -735,7 +733,6 @@
 				6C8CDF782603CF2F00FEAD9A /* ListingRouter.swift in Sources */,
 				6C3A6147260437C200D061F9 /* SearchPresenter.swift in Sources */,
 				6C8CDF6A2603C53F00FEAD9A /* UIImageView+Extensions.swift in Sources */,
-				6C640A562601379000846703 /* ListingWorker.swift in Sources */,
 				6C640A3B260129E900846703 /* ListingModel.swift in Sources */,
 				6C3A612A26042A6400D061F9 /* SearchError.swift in Sources */,
 				6C640A4126012E8D00846703 /* EBookDataManager.swift in Sources */,
@@ -750,6 +747,9 @@
 			files = (
 				6C1EE6312603A42400A39C22 /* EBookDataManagerMock.swift in Sources */,
 				6C640A6026022C5F00846703 /* NetworkingTests.swift in Sources */,
+				6C3A618226045B1700D061F9 /* SearchTrendingWorkerMock.swift in Sources */,
+				6C3A61872604630100D061F9 /* SearchPresenterMock.swift in Sources */,
+				6C3A61782604543F00D061F9 /* TrendingDataManagerMock.swift in Sources */,
 				6C3A615D26044C4200D061F9 /* SearchInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

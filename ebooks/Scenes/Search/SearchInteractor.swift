@@ -18,14 +18,14 @@ protocol SearchDataStore {
 
 class SearchInteractor: SearchBusinessLogic, SearchDataStore {
     var presenter: SearchPresentationLogic?
-    var worker = SearchWorker()
-    var trendingWorker = SearchTrendingWorker()
+    var worker: SearchWorker?
+    var trendingWorker : SearchTrendingWorker?
     var eBooks: [EBook]?
     var trendings: [String]?
 
     func fetchTerm(request: SearchPage.FetchEBooks.Request) {
         var response: SearchPage.FetchEBooks.Response!
-        self.worker.eBookDataManager.getEBooks(from: request.term).done { receivedEBooks in
+        self.worker?.dataManager.getEBooks(from: request.term).done { receivedEBooks in
             var newEBooks: [EBook] = []
             for eBook in receivedEBooks.results ?? [] {
                 newEBooks.append(eBook)
@@ -44,7 +44,7 @@ class SearchInteractor: SearchBusinessLogic, SearchDataStore {
 
     func getTrendings(request: SearchPage.GetTrendings.Request) {
         var response: SearchPage.GetTrendings.Response!
-        self.trendingWorker.trendingDataManager.getTrendings().done { receivedTrendings in
+        self.trendingWorker?.dataManager.getTrendings().done { receivedTrendings in
             var newTrendings: [String] = []
             for trending in receivedTrendings {
                 newTrendings.append(trending)
@@ -63,7 +63,7 @@ class SearchInteractor: SearchBusinessLogic, SearchDataStore {
 
     func saveTrending(request: SearchPage.SaveTrending.Request) {
         var response: SearchPage.SaveTrending.Response!
-        self.trendingWorker.trendingDataManager.saveTrending(term: request.term).done { _ in
+        self.trendingWorker?.dataManager.saveTrending(term: request.term).done { _ in
             response = SearchPage.SaveTrending.Response(error: nil)
         }.catch { error in
             response = SearchPage.SaveTrending.Response(
