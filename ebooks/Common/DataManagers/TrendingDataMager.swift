@@ -37,7 +37,9 @@ final class TrendingLocalStorageManager: TrendingDataManager {
         return Promise<Bool> { seal in
             let defaults = UserDefaults.standard
             var currentTrendings = defaults.stringArray(forKey: "Trendings") ?? [String]()
-            currentTrendings.append(term)
+            if !currentTrendings.contains(term) {
+                currentTrendings.insert(term, at: 0)
+            }
             defaults.set(currentTrendings, forKey: "Trendings")
             seal.fulfill(true)
         }
